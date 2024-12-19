@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjdm2whso8jmf"]
+
+[ext_resource type="Script" path="res://art/draw/pack_of_lerpers.gd" id="1_jjdhc"]
+
+[node name="pack_of_lerpers" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1_jjdhc")
+activated = true
+lerp_direction = Vector2(-50, 0)
