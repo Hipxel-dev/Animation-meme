@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvcx3dg0y47m"]
+
+[ext_resource type="Script" path="res://art/draw/lerper_of_lerpers.gd" id="1_spniw"]
+
+[node name="lerper_of_lerpers" type="Node2D"]
+script = ExtResource("1_spniw")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=3 uid="uid://bm147ubdfhfjk"]
+[gd_scene load_steps=39 format=3 uid="uid://bm147ubdfhfjk"]
 
 [ext_resource type="Animation" uid="uid://d3f6tehwkmpko" path="res://baseanim.res" id="1_5mraf"]
 [ext_resource type="Texture2D" uid="uid://duu6pyamv2q3n" path="res://art/shapes/pixel.png" id="1_c1ps0"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://2toqks0ybnwu" path="res://art/shapes/cross.png" id="2_y13ql"]
 [ext_resource type="Script" path="res://AnimationPlayer.gd" id="3_bs3f8"]
 [ext_resource type="Texture2D" uid="uid://dy2qr00da5al2" path="res://art/shapes/grid.png" id="3_u34rg"]
+[ext_resource type="PackedScene" uid="uid://cvcx3dg0y47m" path="res://art/draw/lerper_of_lerpers.tscn" id="4_dx2lh"]
 [ext_resource type="AudioStream" uid="uid://dxylb7fneq6h7" path="res://鏡音リン・レ表裏一体  すりぃ.mp3" id="4_mle2m"]
 [ext_resource type="FontFile" uid="uid://cxeqf1yfbgg51" path="res://art/fonts/MintsodaLimeGreen13X16Regular-4n30l.ttf" id="6_lyqub"]
 [ext_resource type="Texture2D" uid="uid://cit5jk0tpetun" path="res://art/shapes/rect.png" id="7_fpnq3"]
@@ -15,6 +16,7 @@
 [ext_resource type="Script" path="res://art/draw/pack_of_lerpers.gd" id="9_3bfty"]
 [ext_resource type="PackedScene" uid="uid://bww00flwo16dh" path="res://art/draw/circ.tscn" id="10_w3hp0"]
 [ext_resource type="PackedScene" uid="uid://cjdm2whso8jmf" path="res://art/draw/pack_of_lerpers.tscn" id="11_2hree"]
+[ext_resource type="FontFile" uid="uid://dti5q17n5xisy" path="res://art/fonts/picotron.ttf" id="14_j2yb8"]
 
 [sub_resource type="Animation" id="Animation_ot2xj"]
 length = 0.001
@@ -978,6 +980,450 @@ tracks/79/keys = {
 "update": 1,
 "values": [false]
 }
+tracks/80/type = "value"
+tracks/80/imported = false
+tracks/80/enabled = true
+tracks/80/path = NodePath("main_scene/ColorRect4:visible")
+tracks/80/interp = 1
+tracks/80/loop_wrap = true
+tracks/80/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/81/type = "value"
+tracks/81/imported = false
+tracks/81/enabled = true
+tracks/81/path = NodePath("main_scene/ColorRect5/lerper_of_lerpers:active")
+tracks/81/interp = 1
+tracks/81/loop_wrap = true
+tracks/81/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/82/type = "value"
+tracks/82/imported = false
+tracks/82/enabled = true
+tracks/82/path = NodePath("flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers:activated")
+tracks/82/interp = 1
+tracks/82/loop_wrap = true
+tracks/82/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/83/type = "value"
+tracks/83/imported = false
+tracks/83/enabled = true
+tracks/83/path = NodePath("main_scene/ColorRect5/lerper_of_lerpers/circle:position")
+tracks/83/interp = 1
+tracks/83/loop_wrap = true
+tracks/83/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(320, 518)]
+}
+tracks/84/type = "value"
+tracks/84/imported = false
+tracks/84/enabled = true
+tracks/84/path = NodePath("main_scene/ColorRect5/ColorRect:position")
+tracks/84/interp = 1
+tracks/84/loop_wrap = true
+tracks/84/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1168, -2198)]
+}
+tracks/85/type = "value"
+tracks/85/imported = false
+tracks/85/enabled = true
+tracks/85/path = NodePath("main_scene/ColorRect5:visible")
+tracks/85/interp = 1
+tracks/85/loop_wrap = true
+tracks/85/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/86/type = "value"
+tracks/86/imported = false
+tracks/86/enabled = true
+tracks/86/path = NodePath("main_scene/ColorRect6/ColorRect/ColorRect3:position")
+tracks/86/interp = 1
+tracks/86/loop_wrap = true
+tracks/86/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(277, 309)]
+}
+tracks/87/type = "value"
+tracks/87/imported = false
+tracks/87/enabled = true
+tracks/87/path = NodePath("main_scene/ColorRect6/ColorRect/ColorRect4:position")
+tracks/87/interp = 1
+tracks/87/loop_wrap = true
+tracks/87/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1242.02, 84.2151)]
+}
+tracks/88/type = "value"
+tracks/88/imported = false
+tracks/88/enabled = true
+tracks/88/path = NodePath("main_scene/ColorRect5:position")
+tracks/88/interp = 1
+tracks/88/loop_wrap = true
+tracks/88/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -8)]
+}
+tracks/89/type = "value"
+tracks/89/imported = false
+tracks/89/enabled = true
+tracks/89/path = NodePath("main_scene/ColorRect4/spinnus:position")
+tracks/89/interp = 1
+tracks/89/loop_wrap = true
+tracks/89/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/90/type = "value"
+tracks/90/imported = false
+tracks/90/enabled = true
+tracks/90/path = NodePath("main_scene/ColorRect4/spinnus:visible")
+tracks/90/interp = 1
+tracks/90/loop_wrap = true
+tracks/90/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/91/type = "value"
+tracks/91/imported = false
+tracks/91/enabled = true
+tracks/91/path = NodePath("main_scene/ColorRect4/spinnus:rotation")
+tracks/91/interp = 1
+tracks/91/loop_wrap = true
+tracks/91/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/92/type = "value"
+tracks/92/imported = false
+tracks/92/enabled = true
+tracks/92/path = NodePath("main_scene/ColorRect6/ColorRect/pack_of_lerpers:activated")
+tracks/92/interp = 1
+tracks/92/loop_wrap = true
+tracks/92/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/93/type = "value"
+tracks/93/imported = false
+tracks/93/enabled = true
+tracks/93/path = NodePath("main_scene/ColorRect6/ColorRect/pack_of_lerpers:falloff")
+tracks/93/interp = 1
+tracks/93/loop_wrap = true
+tracks/93/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/94/type = "value"
+tracks/94/imported = false
+tracks/94/enabled = true
+tracks/94/path = NodePath("main_scene/ColorRect4/NinePatchRect/Node2D:activated")
+tracks/94/interp = 1
+tracks/94/loop_wrap = true
+tracks/94/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/95/type = "value"
+tracks/95/imported = false
+tracks/95/enabled = true
+tracks/95/path = NodePath("main_scene/ColorRect6:position")
+tracks/95/interp = 1
+tracks/95/loop_wrap = true
+tracks/95/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -334)]
+}
+tracks/96/type = "value"
+tracks/96/imported = false
+tracks/96/enabled = true
+tracks/96/path = NodePath("main_scene/ColorRect6:visible")
+tracks/96/interp = 1
+tracks/96/loop_wrap = true
+tracks/96/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/97/type = "value"
+tracks/97/imported = false
+tracks/97/enabled = true
+tracks/97/path = NodePath("main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers:activated")
+tracks/97/interp = 1
+tracks/97/loop_wrap = true
+tracks/97/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/98/type = "value"
+tracks/98/imported = false
+tracks/98/enabled = true
+tracks/98/path = NodePath("main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers:scale")
+tracks/98/interp = 1
+tracks/98/loop_wrap = true
+tracks/98/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/99/type = "value"
+tracks/99/imported = false
+tracks/99/enabled = true
+tracks/99/path = NodePath("main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers:rotation")
+tracks/99/interp = 1
+tracks/99/loop_wrap = true
+tracks/99/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/100/type = "value"
+tracks/100/imported = false
+tracks/100/enabled = true
+tracks/100/path = NodePath("main_scene/ColorRect7:visible")
+tracks/100/interp = 1
+tracks/100/loop_wrap = true
+tracks/100/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/101/type = "value"
+tracks/101/imported = false
+tracks/101/enabled = true
+tracks/101/path = NodePath("main_scene/ColorRect8/lerper_of_lerpers:active")
+tracks/101/interp = 1
+tracks/101/loop_wrap = true
+tracks/101/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/102/type = "value"
+tracks/102/imported = false
+tracks/102/enabled = true
+tracks/102/path = NodePath("main_scene/ColorRect8:visible")
+tracks/102/interp = 1
+tracks/102/loop_wrap = true
+tracks/102/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/103/type = "value"
+tracks/103/imported = false
+tracks/103/enabled = true
+tracks/103/path = NodePath("main_scene/ColorRect8:position")
+tracks/103/interp = 1
+tracks/103/loop_wrap = true
+tracks/103/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-440, -288)]
+}
+tracks/104/type = "value"
+tracks/104/imported = false
+tracks/104/enabled = true
+tracks/104/path = NodePath("main_scene/ColorRect9/lerper_of_lerpers:active")
+tracks/104/interp = 1
+tracks/104/loop_wrap = true
+tracks/104/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/105/type = "value"
+tracks/105/imported = false
+tracks/105/enabled = true
+tracks/105/path = NodePath("main_scene/ColorRect9:visible")
+tracks/105/interp = 1
+tracks/105/loop_wrap = true
+tracks/105/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/106/type = "value"
+tracks/106/imported = false
+tracks/106/enabled = true
+tracks/106/path = NodePath("main_scene/ColorRect9:scale")
+tracks/106/interp = 1
+tracks/106/loop_wrap = true
+tracks/106/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/107/type = "value"
+tracks/107/imported = false
+tracks/107/enabled = true
+tracks/107/path = NodePath("main_scene/ColorRect9:position")
+tracks/107/interp = 1
+tracks/107/loop_wrap = true
+tracks/107/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-135, -24)]
+}
+tracks/108/type = "value"
+tracks/108/imported = false
+tracks/108/enabled = true
+tracks/108/path = NodePath("main_scene/ColorRect10:position")
+tracks/108/interp = 1
+tracks/108/loop_wrap = true
+tracks/108/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-97, -20)]
+}
+tracks/109/type = "value"
+tracks/109/imported = false
+tracks/109/enabled = true
+tracks/109/path = NodePath("main_scene/ColorRect10:visible")
+tracks/109/interp = 1
+tracks/109/loop_wrap = true
+tracks/109/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/110/type = "value"
+tracks/110/imported = false
+tracks/110/enabled = true
+tracks/110/path = NodePath("main_scene/ColorRect10/lerper_of_lerpers/pack_of_lerpers:activated")
+tracks/110/interp = 1
+tracks/110/loop_wrap = true
+tracks/110/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/111/type = "value"
+tracks/111/imported = false
+tracks/111/enabled = true
+tracks/111/path = NodePath("main_scene/ColorRect11/lerper_of_lerpers:active")
+tracks/111/interp = 1
+tracks/111/loop_wrap = true
+tracks/111/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/112/type = "value"
+tracks/112/imported = false
+tracks/112/enabled = true
+tracks/112/path = NodePath("main_scene/ColorRect11:position")
+tracks/112/interp = 1
+tracks/112/loop_wrap = true
+tracks/112/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-36, -20)]
+}
+tracks/113/type = "value"
+tracks/113/imported = false
+tracks/113/enabled = true
+tracks/113/path = NodePath("main_scene/ColorRect11:visible")
+tracks/113/interp = 1
+tracks/113/loop_wrap = true
+tracks/113/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/114/type = "value"
+tracks/114/imported = false
+tracks/114/enabled = true
+tracks/114/path = NodePath("main_scene/ColorRect12/ColorRect/lerper_of_lerpers:active")
+tracks/114/interp = 1
+tracks/114/loop_wrap = true
+tracks/114/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/115/type = "value"
+tracks/115/imported = false
+tracks/115/enabled = true
+tracks/115/path = NodePath("main_scene/ColorRect12:visible")
+tracks/115/interp = 1
+tracks/115/loop_wrap = true
+tracks/115/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/116/type = "value"
+tracks/116/imported = false
+tracks/116/enabled = true
+tracks/116/path = NodePath("main_scene/ColorRect13/pack_of_lerpers:activated")
+tracks/116/interp = 1
+tracks/116/loop_wrap = true
+tracks/116/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ube5g"]
 _data = {
@@ -1095,8 +1541,27 @@ _data = {
 "anim": SubResource("Animation_q28ut")
 }
 
+[sub_resource type="LabelSettings" id="LabelSettings_gn1ow"]
+font_size = 52
+
+[sub_resource type="LabelSettings" id="LabelSettings_n1a8u"]
+font = ExtResource("6_lyqub")
+font_size = 52
+outline_size = 14
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_7umvc"]
+font_size = 55
+outline_size = 22
+outline_color = Color(0, 0, 0, 1)
+
 [sub_resource type="FontVariation" id="FontVariation_56x84"]
 base_font = ExtResource("6_lyqub")
+
+[sub_resource type="LabelSettings" id="LabelSettings_05qsq"]
+font = ExtResource("6_lyqub")
+font_size = 38
+font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g746i"]
 bg_color = Color(0, 0, 0, 1)
@@ -1116,6 +1581,12 @@ base_font = ExtResource("8_eguhr")
 [sub_resource type="LabelSettings" id="LabelSettings_tpii5"]
 font = SubResource("FontVariation_78d2a")
 font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_m6bgb"]
+font = ExtResource("14_j2yb8")
+font_size = 8
+font_color = Color(0, 0, 0, 1)
+outline_size = 4
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_64ujk"]
 shader = ExtResource("7_im7oj")
@@ -1177,16 +1648,2498 @@ script = ExtResource("3_bs3f8")
 
 [node name="main_scene" type="Node2D" parent="."]
 
-[node name="ColorRect5" type="ColorRect" parent="main_scene"]
-offset_top = -352.0
+[node name="ColorRect13" type="ColorRect" parent="main_scene"]
+offset_left = -56.0
+offset_top = -20.0
+offset_right = 688.0
+offset_bottom = 388.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect13"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="pack_of_lerpers" parent="main_scene/ColorRect13" instance=ExtResource("11_2hree")]
+position = Vector2(332, 179)
+activated = false
+lerp_direction = Vector2(0, 0)
+count_strength = 2.0
+lerp_strength = 0.3
+starting_scale = true
+random_pos = true
+
+[node name="Label" type="Label" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -195.0
+offset_top = -95.0
+offset_right = 260.0
+offset_bottom = -69.0
+text = "Little animation i made to test out"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -195.0
+offset_top = -73.0
+offset_right = 260.0
+offset_bottom = -47.0
+text = "godot 4's movie maker mode."
+horizontal_alignment = 1
+
+[node name="Label3" type="Label" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -228.0
+offset_top = -14.0
+offset_right = 227.0
+offset_bottom = 12.0
+text = "Time took: "
+horizontal_alignment = 1
+
+[node name="Label4" type="Label" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -158.0
+offset_top = -14.0
+offset_right = 297.0
+offset_bottom = 12.0
+text = "4 days"
+horizontal_alignment = 1
+
+[node name="Label5" type="Label" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -33.0
+offset_top = 35.0
+offset_right = 222.0
+offset_bottom = 61.0
+text = "Made by: @Hipsxel"
+
+[node name="Label6" type="Label" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -96.0
+offset_top = 75.0
+offset_right = 159.0
+offset_bottom = 101.0
+text = "Music:
+"
+horizontal_alignment = 1
+
+[node name="Label7" type="Label" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -349.0
+offset_top = 98.0
+offset_right = 412.0
+offset_bottom = 125.0
+text = "Three ft. Kagamine Rin & Kagamine Len - Two Sides of the Same Coin 表裏一体"
+horizontal_alignment = 1
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -33.0
+offset_top = 10.0
+offset_right = 96.0
+offset_bottom = 12.0
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -77.0
+offset_top = -49.0
+offset_right = 153.0
+offset_bottom = -47.0
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -251.0
+offset_top = 129.0
+offset_right = 327.0
+offset_bottom = 131.0
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -256.0
+offset_top = -31.0
+offset_right = -196.0
+offset_bottom = -26.0
+
+[node name="ColorRect5" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -244.0
+offset_top = -20.0
+offset_right = -208.0
+offset_bottom = -15.0
+
+[node name="ColorRect6" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -256.0
+offset_top = -10.0
+offset_right = -196.0
+offset_bottom = -5.0
+
+[node name="ColorRect8" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -260.0
+offset_top = 15.0
+offset_right = -217.0
+offset_bottom = 20.0
+rotation = -0.523599
+
+[node name="ColorRect9" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -228.0
+offset_top = 2.0
+offset_right = -185.0
+offset_bottom = 7.0
+rotation = 0.436332
+
+[node name="ColorRect10" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -213.0
+offset_top = 9.0
+offset_right = -202.0
+offset_bottom = 14.0
+rotation = -0.436332
+
+[node name="ColorRect11" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -227.0
+offset_top = 2.0
+offset_right = -193.0
+offset_bottom = 7.0
+rotation = -1.5708
+
+[node name="ColorRect12" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -179.0
+offset_top = 2.0
+offset_right = -145.0
+offset_bottom = 7.0
+rotation = -1.5708
+
+[node name="ColorRect13" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -152.0
+offset_top = 2.0
+offset_right = -118.0
+offset_bottom = 7.0
+rotation = -1.5708
+
+[node name="ColorRect14" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -141.0
+offset_top = 2.0
+offset_right = -96.0
+offset_bottom = 7.0
+rotation = -3.14159
+
+[node name="ColorRect15" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -141.0
+offset_top = 2.0
+offset_right = -96.0
+offset_bottom = 7.0
+rotation = -3.14159
+
+[node name="ColorRect16" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -141.0
+offset_top = -11.0
+offset_right = -96.0
+offset_bottom = -6.0
+rotation = -3.14159
+
+[node name="ColorRect17" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -141.0
+offset_top = -26.0
+offset_right = -96.0
+offset_bottom = -21.0
+rotation = -3.14159
+
+[node name="ColorRect18" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -163.0
+offset_top = 5.0
+offset_right = -140.0
+offset_bottom = 8.0
+rotation = -3.57793
+
+[node name="ColorRect19" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -163.0
+offset_top = 5.0
+offset_right = -140.0
+offset_bottom = 8.0
+rotation = -5.67232
+
+[node name="ColorRect20" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -152.0
+offset_top = 10.0
+offset_right = -137.0
+offset_bottom = 12.0
+rotation = -6.45772
+
+[node name="ColorRect21" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -173.0
+offset_top = 9.0
+offset_right = -158.0
+offset_bottom = 11.0
+rotation = -4.45059
+
+[node name="ColorRect22" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -132.0
+offset_top = -6.0
+offset_right = -101.0
+offset_bottom = -3.0
+rotation = -6.28319
+
+[node name="ColorRect7" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -228.0
+offset_top = -10.0
+offset_right = -192.0
+offset_bottom = -5.0
+
+[node name="ColorRect23" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -94.0
+offset_top = -11.0
+offset_right = -75.0
+offset_bottom = -9.0
+rotation = -1.13446
+
+[node name="ColorRect24" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -87.0
+offset_top = 23.0
+offset_right = -35.0
+offset_bottom = 25.0
+rotation = -1.5708
+
+[node name="ColorRect25" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -68.0
+offset_right = -39.0
+offset_bottom = 4.0
+rotation = -1.5708
+
+[node name="ColorRect26" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -82.0
+offset_top = -6.0
+offset_right = -53.0
+offset_bottom = -2.0
+rotation = -1.06835
+
+[node name="ColorRect27" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -51.0
+offset_top = -5.0
+offset_right = -22.0
+offset_bottom = -1.0
+rotation = -2.36233
+
+[node name="ColorRect28" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -63.0
+offset_top = -12.0
+offset_right = -34.0
+offset_bottom = -8.0
+rotation = -4.71239
+
+[node name="ColorRect29" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = -75.0
+offset_top = 5.0
+offset_right = -56.0
+offset_bottom = 7.0
+rotation = -6.28319
+
+[node name="ColorRect30" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 188.0
+offset_top = 5.0
+offset_right = 207.0
+offset_bottom = 23.0
+rotation = -8.20305
+
+[node name="ColorRect31" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 212.0
+offset_top = -5.0
+offset_right = 231.0
+offset_bottom = 13.0
+rotation = -7.85398
+
+[node name="ColorRect32" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 244.0
+offset_top = -6.0
+offset_right = 263.0
+offset_bottom = 12.0
+rotation = -7.85398
+
+[node name="ColorRect33" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 271.0
+offset_top = -2.0
+offset_right = 290.0
+offset_bottom = 16.0
+rotation = -7.41765
+
+[node name="ColorRect34" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 192.0
+offset_top = 53.0
+offset_right = 244.0
+offset_bottom = 108.0
+rotation = -8.11578
+
+[node name="ColorRect35" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 216.0
+offset_top = 50.0
+offset_right = 281.0
+offset_bottom = 110.0
+rotation = -7.59219
+
+[node name="ColorRect36" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 192.0
+offset_top = 75.0
+offset_right = 234.0
+offset_bottom = 162.0
+rotation = -7.94125
+
+[node name="ColorRect37" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 184.0
+offset_top = 46.0
+offset_right = 188.0
+offset_bottom = 65.0
+rotation = -7.15585
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect38" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 264.0
+offset_top = 60.0
+offset_right = 268.0
+offset_bottom = 79.0
+rotation = -8.37758
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect39" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 248.0
+offset_top = 60.0
+offset_right = 252.0
+offset_bottom = 79.0
+rotation = -7.85398
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect40" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 252.0
+offset_top = 57.0
+offset_right = 256.0
+offset_bottom = 76.0
+rotation = -10.3847
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect41" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 236.0
+offset_top = 46.0
+offset_right = 240.0
+offset_bottom = 65.0
+rotation = -11.5192
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect42" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 224.0
+offset_top = 53.0
+offset_right = 228.0
+offset_bottom = 77.0
+rotation = -10.9083
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect43" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 219.0
+offset_top = 12.0
+offset_right = 237.0
+offset_bottom = 31.0
+rotation = -10.9083
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect44" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 215.0
+offset_top = 15.0
+offset_right = 227.0
+offset_bottom = 27.0
+rotation = -10.9083
+
+[node name="ColorRect45" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 262.928
+offset_top = 12.0
+offset_right = 280.928
+offset_bottom = 31.0
+rotation = -11.0828
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect46" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 258.928
+offset_top = 15.0
+offset_right = 270.928
+offset_bottom = 27.0
+rotation = -11.0828
+
+[node name="ColorRect47" type="ColorRect" parent="main_scene/ColorRect13/pack_of_lerpers"]
+offset_left = 232.0
+offset_top = 35.0
+offset_right = 236.0
+offset_bottom = 40.0
+rotation = -11.0828
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect12" type="ColorRect" parent="main_scene"]
+offset_left = -376.0
+offset_right = 724.0
+offset_bottom = 396.0
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect12"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="lerper_of_lerpers" parent="main_scene/ColorRect12/ColorRect" instance=ExtResource("4_dx2lh")]
+
+[node name="pack_of_lerpers" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+activated = false
+lerp_direction = Vector2(-150, 0)
+blink_distance = 2555
+spin = true
+lerp_strength = 0.3
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers/pack_of_lerpers"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(333, 191.533)
+scale = Vector2(121.413, 121.413)
+
+[node name="Sprite2D2" type="Sprite2D" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers/pack_of_lerpers"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(333, 191.533)
+scale = Vector2(121.413, 121.413)
+texture = ExtResource("2_y13ql")
+
+[node name="pack_of_lerpers2" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(-20, 0)
+activated = false
+lerp_direction = Vector2(150, 0)
+blink_distance = 2555
+spin = true
+lerp_strength = 0.3
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers/pack_of_lerpers2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1081, 191.533)
+scale = Vector2(121.413, 121.413)
+
+[node name="Sprite2D2" type="Sprite2D" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers/pack_of_lerpers2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1081, 191.533)
+scale = Vector2(121.413, 121.413)
+texture = ExtResource("2_y13ql")
+
+[node name="pack_of_lerpers3" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+activated = false
+lerp_direction = Vector2(0, -150)
+blink_distance = 2555
+spin = true
+lerp_strength = 0.3
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers/pack_of_lerpers3"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(696, -164.467)
+scale = Vector2(121.413, 121.413)
+
+[node name="Sprite2D2" type="Sprite2D" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers/pack_of_lerpers3"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(696, -164.467)
+scale = Vector2(121.413, 121.413)
+texture = ExtResource("2_y13ql")
+
+[node name="pack_of_lerpers4" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+activated = false
+lerp_direction = Vector2(0, 150)
+blink_distance = 2555
+spin = true
+lerp_strength = 0.3
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers/pack_of_lerpers4"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(696, 547.533)
+scale = Vector2(121.413, 121.413)
+
+[node name="Sprite2D2" type="Sprite2D" parent="main_scene/ColorRect12/ColorRect/lerper_of_lerpers/pack_of_lerpers4"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(696, 547.533)
+scale = Vector2(121.413, 121.413)
+texture = ExtResource("2_y13ql")
+
+[node name="ColorRect11" type="ColorRect" parent="main_scene"]
+visible = false
+offset_left = -36.0
+offset_top = -20.0
+offset_right = 680.0
+offset_bottom = 388.0
+
+[node name="lerper_of_lerpers" parent="main_scene/ColorRect11" instance=ExtResource("4_dx2lh")]
+activation_speed = 1.0
+
+[node name="pack_of_lerpers2" parent="main_scene/ColorRect11/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+activated = false
+lerp_direction = Vector2(-150, 0)
+count_strength = 3.0
+blink_distance = 1555
+
+[node name="ColorRect6" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+show_behind_parent = true
+offset_left = -12.0
+offset_top = 79.0
+offset_right = 470.0
+offset_bottom = 179.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect7" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+offset_left = -6.0
+offset_top = 84.0
+offset_right = 464.0
+offset_bottom = 174.0
+
+[node name="ColorRect8" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+show_behind_parent = true
+offset_left = -32.0
+offset_top = 120.0
+offset_right = 450.0
+offset_bottom = 220.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect9" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+offset_left = -26.0
+offset_top = 125.0
+offset_right = 444.0
+offset_bottom = 215.0
+
+[node name="ColorRect10" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+show_behind_parent = true
+offset_left = -88.0
+offset_top = 184.0
+offset_right = 394.0
+offset_bottom = 284.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect11" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+offset_left = -82.0
+offset_top = 189.0
+offset_right = 388.0
+offset_bottom = 279.0
+
+[node name="ColorRect12" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+show_behind_parent = true
+offset_left = -60.0
+offset_top = 168.0
+offset_right = 422.0
+offset_bottom = 268.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect13" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+offset_left = -54.0
+offset_top = 173.0
+offset_right = 416.0
+offset_bottom = 263.0
+
+[node name="ColorRect14" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+show_behind_parent = true
+offset_left = -120.0
+offset_top = 67.0
+offset_right = 362.0
+offset_bottom = 167.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect15" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+offset_left = -114.0
+offset_top = 72.0
+offset_right = 356.0
+offset_bottom = 162.0
+
+[node name="ColorRect16" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+show_behind_parent = true
+offset_left = -172.0
+offset_top = 52.0
+offset_right = 310.0
+offset_bottom = 152.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect17" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+offset_left = -166.0
+offset_top = 57.0
+offset_right = 304.0
+offset_bottom = 147.0
+
+[node name="ColorRect18" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+show_behind_parent = true
+offset_left = 130.0
+offset_top = 125.0
+offset_right = 612.0
+offset_bottom = 225.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect19" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers2"]
+offset_left = 136.0
+offset_top = 130.0
+offset_right = 606.0
+offset_bottom = 220.0
+
+[node name="pack_of_lerpers" parent="main_scene/ColorRect11/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+activated = false
+lerp_direction = Vector2(-150, 0)
+count_strength = 3.0
+blink_distance = 1555
+lerp_strength = 0.2
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(168, 232)
+rotation = 0.785398
+scale = Vector2(14.8238, 14.8238)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D2" type="Sprite2D" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(100, 232)
+rotation = 0.785398
+scale = Vector2(14.8238, 14.8238)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D3" type="Sprite2D" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(219, 214)
+rotation = 0.785398
+scale = Vector2(6.16631, 6.16631)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D4" type="Sprite2D" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(244, 214)
+rotation = 0.785398
+scale = Vector2(6.16631, 6.16631)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D5" type="Sprite2D" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(244, 214)
+rotation = 0.785398
+scale = Vector2(6.16631, 6.16631)
+texture = ExtResource("2_y13ql")
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = 264.0
+offset_top = 220.0
+offset_right = 271.0
+offset_bottom = 228.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = 273.0
+offset_top = 220.0
+offset_right = 280.0
+offset_bottom = 228.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = 4.0
+offset_top = 276.0
+offset_right = 166.0
+offset_bottom = 284.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = -12.0
+offset_top = 232.0
+offset_right = 368.0
+offset_bottom = 240.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = 3.0
+offset_top = 68.0
+offset_right = 595.0
+offset_bottom = 76.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = 3.0
+offset_top = 68.0
+offset_right = 595.0
+offset_bottom = 76.0
+color = Color(0, 0, 0, 1)
+
+[node name="pack_of_lerpers3" parent="main_scene/ColorRect11/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+activated = false
+lerp_direction = Vector2(55, 0)
+count_strength = 3.0
+blink_distance = 1555
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers3"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(464.41, 108.41)
+rotation = 0.785398
+scale = Vector2(14.8238, 14.8238)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D2" type="Sprite2D" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers3"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(394, 108.41)
+rotation = 0.785398
+scale = Vector2(14.8238, 14.8238)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D3" type="Sprite2D" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers3"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(542.82, 24.4102)
+rotation = 0.785398
+scale = Vector2(14.8238, 14.8238)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D4" type="Sprite2D" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers3"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(472.41, 24.4102)
+rotation = 0.785398
+scale = Vector2(14.8238, 14.8238)
+texture = ExtResource("2_y13ql")
+
+[node name="pack_of_lerpers4" parent="main_scene/ColorRect11/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+activated = false
+lerp_direction = Vector2(-55, 0)
+count_strength = 3.0
+blink_distance = 1555
+lerp_strength = 0.3
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 48.0
+offset_top = 48.0
+offset_right = 88.0
+offset_bottom = 92.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 96.0
+offset_top = 48.0
+offset_right = 136.0
+offset_bottom = 92.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 146.0
+offset_top = 48.0
+offset_right = 158.0
+offset_bottom = 92.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 323.0
+offset_top = 268.0
+offset_right = 344.0
+offset_bottom = 289.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 295.0
+offset_top = 268.0
+offset_right = 316.0
+offset_bottom = 289.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 116.0
+offset_top = 288.0
+offset_right = 273.0
+offset_bottom = 296.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect7" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 44.0
+offset_top = 299.0
+offset_right = 201.0
+offset_bottom = 307.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect8" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 22.0
+offset_top = 100.0
+offset_right = 179.0
+offset_bottom = 108.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect9" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 440.0
+offset_top = 136.0
+offset_right = 597.0
+offset_bottom = 204.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect10" type="ColorRect" parent="main_scene/ColorRect11/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 392.0
+offset_top = 228.0
+offset_right = 460.0
+offset_bottom = 263.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect10" type="ColorRect" parent="main_scene"]
+offset_left = -97.0
+offset_top = -20.0
+offset_right = 647.0
+offset_bottom = 408.0
+
+[node name="lerper_of_lerpers" parent="main_scene/ColorRect10" instance=ExtResource("4_dx2lh")]
+position = Vector2(316, 180)
+
+[node name="pack_of_lerpers" parent="main_scene/ColorRect10/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+rotation = 0.177212
+activated = false
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect10/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = -107.0
+offset_top = -29.0
+offset_right = 165.0
+offset_bottom = 48.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect10/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = 180.0
+offset_top = 8.0
+offset_right = 452.0
+offset_bottom = 11.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect10/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = -416.0
+offset_top = 8.0
+offset_right = -144.0
+offset_bottom = 11.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="main_scene/ColorRect10/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = -76.0
+offset_top = -32.0
+offset_right = 140.0
+offset_bottom = 52.0
+text = "表裏の裏"
+label_settings = SubResource("LabelSettings_gn1ow")
+
+[node name="Circ" parent="main_scene/ColorRect10/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(24, 8)
+radius = 237
+color = Color(0, 0, 0, 1)
+width = 2
+
+[node name="Circ2" parent="main_scene/ColorRect10/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(-184, -96)
+radius = 1
+width = 66
+
+[node name="Circ3" parent="main_scene/ColorRect10/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(-184, -96)
+radius = 33
+color = Color(0, 0, 0, 1)
+width = 2
+
+[node name="ColorRect9" type="ColorRect" parent="main_scene"]
+offset_left = -135.0
+offset_top = -24.0
+offset_right = 641.0
+offset_bottom = 404.0
+color = Color(0, 0, 0, 1)
+
+[node name="lerper_of_lerpers" parent="main_scene/ColorRect9" instance=ExtResource("4_dx2lh")]
+activation_speed = 0.04
+
+[node name="black" parent="main_scene/ColorRect9/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(259, 66)
+activated = false
+lerp_direction = Vector2(-555, 0)
+blink_distance = 111111
+lerp_strength = 0.4
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect9/lerper_of_lerpers/black"]
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/black"]
+offset_left = -120.0
+offset_top = -40.0
+offset_right = 517.0
+offset_bottom = 318.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/black"]
+offset_left = -260.0
+offset_top = -60.8384
+offset_right = 161.0
+offset_bottom = 373.162
+rotation = -0.107479
+
+[node name="Label" type="Label" parent="main_scene/ColorRect9/lerper_of_lerpers/black"]
+offset_left = 133.0
+offset_top = 120.162
+offset_right = 245.0
+offset_bottom = 188.162
+text = "まだ"
+label_settings = SubResource("LabelSettings_n1a8u")
+
+[node name="white" parent="main_scene/ColorRect9/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(259, 66)
+activated = false
+lerp_direction = Vector2(555, 0)
+blink_distance = 111111
+lerp_strength = 0.4
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect9/lerper_of_lerpers/white"]
+position = Vector2(59, 0)
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/white"]
+offset_left = -61.0
+offset_top = -40.0
+offset_right = 576.0
+offset_bottom = 318.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/white"]
+offset_left = 191.0
+offset_top = -70.0
+offset_right = 583.0
+offset_bottom = 364.0
+rotation = -0.107479
+
+[node name="Label" type="Label" parent="main_scene/ColorRect9/lerper_of_lerpers/white"]
+offset_left = 171.0
+offset_top = 106.0
+offset_right = 283.0
+offset_bottom = 174.0
+text = "まだ"
+label_settings = SubResource("LabelSettings_n1a8u")
+
+[node name="black2" parent="main_scene/ColorRect9/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(259, 66)
+activated = false
+lerp_direction = Vector2(-555, 0)
+blink_distance = 111111
+lerp_strength = 0.4
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect9/lerper_of_lerpers/black2"]
+position = Vector2(88, -2)
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/black2"]
+offset_left = -32.0
+offset_top = -42.0
+offset_right = 605.0
+offset_bottom = 316.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/black2"]
+offset_left = -172.0
+offset_top = -62.8384
+offset_right = 249.0
+offset_bottom = 371.162
+rotation = -0.107479
+
+[node name="Label" type="Label" parent="main_scene/ColorRect9/lerper_of_lerpers/black2"]
+offset_left = 221.0
+offset_top = 118.162
+offset_right = 333.0
+offset_bottom = 186.162
+text = "まだ"
+label_settings = SubResource("LabelSettings_n1a8u")
+
+[node name="white2" parent="main_scene/ColorRect9/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(259, 66)
+activated = false
+lerp_direction = Vector2(555, 0)
+blink_distance = 111111
+lerp_strength = 0.4
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect9/lerper_of_lerpers/white2"]
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/white2"]
+offset_left = -120.0
+offset_top = -40.0
+offset_right = 517.0
+offset_bottom = 318.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/white2"]
+offset_left = 132.0
+offset_top = -70.0
+offset_right = 524.0
+offset_bottom = 364.0
+rotation = -0.107479
+
+[node name="Label" type="Label" parent="main_scene/ColorRect9/lerper_of_lerpers/white2"]
+offset_left = 112.0
+offset_top = 106.0
+offset_right = 224.0
+offset_bottom = 174.0
+text = "まだ"
+label_settings = SubResource("LabelSettings_n1a8u")
+
+[node name="black3" parent="main_scene/ColorRect9/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(259, 66)
+activated = false
+lerp_direction = Vector2(-555, 0)
+blink_distance = 111111
+lerp_strength = 0.4
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect9/lerper_of_lerpers/black3"]
+position = Vector2(4, 44)
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/black3"]
+offset_left = -116.0
+offset_top = 4.0
+offset_right = 521.0
+offset_bottom = 362.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/black3"]
+offset_left = -256.0
+offset_top = -16.8384
+offset_right = 165.0
+offset_bottom = 417.162
+rotation = -0.107479
+
+[node name="Label" type="Label" parent="main_scene/ColorRect9/lerper_of_lerpers/black3"]
+offset_left = 137.0
+offset_top = 164.162
+offset_right = 249.0
+offset_bottom = 232.162
+text = "まだ"
+label_settings = SubResource("LabelSettings_n1a8u")
+
+[node name="white3" parent="main_scene/ColorRect9/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(259, 66)
+activated = false
+lerp_direction = Vector2(555, 0)
+blink_distance = 111111
+lerp_strength = 0.4
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect9/lerper_of_lerpers/white3"]
+position = Vector2(-48, 0)
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/white3"]
+offset_left = -168.0
+offset_top = -40.0
+offset_right = 469.0
+offset_bottom = 318.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect9/lerper_of_lerpers/white3"]
+offset_left = 84.0
+offset_top = -70.0
+offset_right = 476.0
+offset_bottom = 364.0
+rotation = -0.107479
+
+[node name="Label" type="Label" parent="main_scene/ColorRect9/lerper_of_lerpers/white3"]
+offset_left = 64.0
+offset_top = 106.0
+offset_right = 176.0
+offset_bottom = 174.0
+text = "まだ"
+label_settings = SubResource("LabelSettings_n1a8u")
+
+[node name="ColorRect8" type="ColorRect" parent="main_scene"]
+visible = false
+offset_left = -440.0
+offset_top = -288.0
+offset_right = 992.0
+offset_bottom = 660.0
+color = Color(0, 0, 0, 1)
+
+[node name="lerper_of_lerpers" parent="main_scene/ColorRect8" instance=ExtResource("4_dx2lh")]
+activation_speed = 3.0
+
+[node name="pack_of_lerpers" parent="main_scene/ColorRect8/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+activated = false
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = 488.0
+offset_top = 300.0
+offset_right = 504.0
+offset_bottom = 308.0
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = 488.0
+offset_top = 312.0
+offset_right = 504.0
+offset_bottom = 320.0
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = 488.0
+offset_top = 323.0
+offset_right = 504.0
+offset_bottom = 331.0
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers"]
+offset_left = 488.0
+offset_top = 335.0
+offset_right = 504.0
+offset_bottom = 343.0
+
+[node name="pack_of_lerpers2" parent="main_scene/ColorRect8/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(104, 0)
+activated = false
+lerp_direction = Vector2(0, 66)
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers2"]
+offset_left = 488.0
+offset_top = 300.0
+offset_right = 504.0
+offset_bottom = 308.0
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers2"]
+offset_left = 488.0
+offset_top = 312.0
+offset_right = 504.0
+offset_bottom = 320.0
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers2"]
+offset_left = 488.0
+offset_top = 323.0
+offset_right = 504.0
+offset_bottom = 331.0
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers2"]
+offset_left = 488.0
+offset_top = 335.0
+offset_right = 504.0
+offset_bottom = 343.0
+
+[node name="pack_of_lerpers3" parent="main_scene/ColorRect8/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(104, 0)
+activated = false
+lerp_direction = Vector2(-55, 66)
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 380.0
+offset_top = 597.0
+offset_right = 396.0
+offset_bottom = 605.0
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 380.0
+offset_top = 597.0
+offset_right = 396.0
+offset_bottom = 605.0
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 420.0
+offset_top = 592.0
+offset_right = 436.0
+offset_bottom = 675.0
+rotation = 0.610865
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 422.0
+offset_top = 556.0
+offset_right = 438.0
+offset_bottom = 663.0
+rotation = 0.610865
+
+[node name="ColorRect8" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 432.0
+offset_top = 507.0
+offset_right = 448.0
+offset_bottom = 614.0
+rotation = 0.610865
+
+[node name="ColorRect9" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 468.0
+offset_top = 564.0
+offset_right = 484.0
+offset_bottom = 671.0
+rotation = 0.610865
+
+[node name="ColorRect10" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 416.0
+offset_top = 572.0
+offset_right = 432.0
+offset_bottom = 679.0
+rotation = -0.959931
+
+[node name="ColorRect11" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 324.0
+offset_top = 560.0
+offset_right = 340.0
+offset_bottom = 667.0
+rotation = -0.959931
+
+[node name="ColorRect12" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 324.0
+offset_top = 532.0
+offset_right = 340.0
+offset_bottom = 639.0
+rotation = -0.959931
+
+[node name="ColorRect5" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 396.0
+offset_top = 538.0
+offset_right = 444.0
+offset_bottom = 557.0
+rotation = 0.610865
+
+[node name="ColorRect6" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 356.0
+offset_top = 592.0
+offset_right = 404.0
+offset_bottom = 611.0
+rotation = 0.610865
+
+[node name="ColorRect7" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers3"]
+offset_left = 356.0
+offset_top = 592.0
+offset_right = 404.0
+offset_bottom = 611.0
+rotation = 0.610865
+
+[node name="pack_of_lerpers4" parent="main_scene/ColorRect8/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(104, 0)
+activated = false
+lerp_direction = Vector2(55, 55)
+lerp_mult_max = 5
+starting_scale = true
+random_pos = true
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 528.0
+offset_top = 415.0
+offset_right = 622.0
+offset_bottom = 473.0
+rotation = 1.5708
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 588.0
+offset_top = 400.0
+offset_right = 682.0
+offset_bottom = 458.0
+rotation = 1.5708
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 624.0
+offset_top = 389.0
+offset_right = 754.0
+offset_bottom = 423.0
+rotation = 1.5708
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 660.0
+offset_top = 400.0
+offset_right = 768.0
+offset_bottom = 434.0
+rotation = 1.5708
+
+[node name="ColorRect5" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 752.0
+offset_top = 415.0
+offset_right = 845.0
+offset_bottom = 505.0
+rotation = 1.5708
+
+[node name="ColorRect6" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 844.0
+offset_top = 400.0
+offset_right = 966.0
+offset_bottom = 490.0
+rotation = 1.5708
+
+[node name="ColorRect7" type="ColorRect" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers4"]
+offset_left = 752.0
+offset_top = 403.0
+offset_right = 761.0
+offset_bottom = 493.0
+rotation = 1.5708
+
+[node name="text" parent="main_scene/ColorRect8/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+
+[node name="pack_of_lerpers5" parent="main_scene/ColorRect8/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(104, 0)
+activated = false
+lerp_direction = Vector2(0, 55)
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(460, 504)
+rotation = -0.872665
+scale = Vector2(5.58628, 5.58628)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D2" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(480, 407)
+rotation = -0.872665
+scale = Vector2(8.16378, 8.16378)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D3" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(616, 612)
+rotation = -0.872665
+scale = Vector2(17.8868, 17.8868)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D4" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(700, 607)
+rotation = -0.872665
+scale = Vector2(17.8868, 17.8868)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D5" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(840, 408)
+rotation = -0.872665
+scale = Vector2(13.8197, 13.8197)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D6" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(788, 396)
+rotation = -0.872665
+scale = Vector2(6.6947, 6.6947)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D7" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(756, 396)
+rotation = -0.872665
+scale = Vector2(6.6947, 6.6947)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D8" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(876, 452)
+rotation = -0.872665
+scale = Vector2(4.26334, 4.26334)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D9" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(900, 452)
+rotation = -0.872665
+scale = Vector2(4.26334, 4.26334)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D10" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(844, 522)
+rotation = -0.872665
+scale = Vector2(4.26334, 4.26334)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D11" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(816, 536)
+rotation = -0.872665
+scale = Vector2(8.00148, 8.00148)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D12" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(716, 522)
+rotation = -0.872665
+scale = Vector2(2.48033, 2.48033)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D13" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(696, 522)
+rotation = -0.872665
+scale = Vector2(-3.42871, -3.42871)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D14" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(680, 522)
+rotation = -0.872665
+scale = Vector2(-3.42871, -3.42871)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D15" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(573, 518)
+rotation = -0.872665
+scale = Vector2(-3.18656, -3.18656)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D17" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(600, 372)
+rotation = -0.872665
+scale = Vector2(-3.18656, -3.18656)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D18" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers5"]
+position = Vector2(452, 482)
+scale = Vector2(-3.18656, -3.18656)
+texture = ExtResource("2_y13ql")
+
+[node name="pack_of_lerpers6" parent="main_scene/ColorRect8/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(104, 0)
+activated = false
+lerp_direction = Vector2(100, -55)
+lerp_strength = 0.25
+
+[node name="Sprite2D16" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers6"]
+position = Vector2(604, 536)
+rotation = -0.872665
+scale = Vector2(-3.18656, -3.18656)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D19" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers6"]
+position = Vector2(500, 404)
+scale = Vector2(-3.18656, -3.18656)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D20" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers6"]
+position = Vector2(734, 392)
+scale = Vector2(-3.18656, -3.18656)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D21" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers6"]
+position = Vector2(840, 380)
+scale = Vector2(-3.18656, -3.18656)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D22" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers6"]
+position = Vector2(856, 452)
+scale = Vector2(-3.18656, -3.18656)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D23" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers6"]
+position = Vector2(864, 496)
+scale = Vector2(-7.49211, -7.49211)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D24" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers6"]
+position = Vector2(784, 536)
+scale = Vector2(-3.83384, -3.83384)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D25" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers6"]
+position = Vector2(652, 516)
+scale = Vector2(-3.83384, -3.83384)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D26" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers6"]
+position = Vector2(420, 472)
+scale = Vector2(-3.30686, -3.30686)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D27" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers6"]
+position = Vector2(420, 452)
+scale = Vector2(-3.30686, -3.30686)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D28" type="Sprite2D" parent="main_scene/ColorRect8/lerper_of_lerpers/pack_of_lerpers6"]
+position = Vector2(420, 420)
+rotation = -0.785398
+scale = Vector2(-3.30686, -3.30686)
+texture = ExtResource("2_y13ql")
+
+[node name="ColorRect7" type="ColorRect" parent="main_scene"]
+offset_left = -32.0
+offset_top = -24.0
+offset_right = 676.0
+offset_bottom = 404.0
+
+[node name="lerper_of_lerpers" parent="main_scene/ColorRect7" instance=ExtResource("4_dx2lh")]
+
+[node name="pack_of_lerpers" parent="main_scene/ColorRect7/lerper_of_lerpers" instance=ExtResource("11_2hree")]
+position = Vector2(352, 204)
+activated = false
+lerp_direction = Vector2(-50, 55)
+spin = true
+starting_scale = true
+
+[node name="Circ11" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -0.296606
+radius = 202
+point_count = 4
+color = Color(0.8, 0.8, 0.8, 1)
+width = 33
+
+[node name="Circ17" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -0.296606
+radius = 167
+point_count = 32
+color = Color(0.8, 0.8, 0.8, 1)
+width = 5
+
+[node name="Circ12" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -1.95467
+radius = 297
+point_count = 4
+color = Color(0.8, 0.8, 0.8, 1)
+width = 4
+
+[node name="Circ13" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -3.26367
+radius = 44
+point_count = 4
+color = Color(0.8, 0.8, 0.8, 1)
+width = 2
+
+[node name="Circ14" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -5.44533
+radius = 99
+point_count = 4
+color = Color(0.8, 0.8, 0.8, 1)
+width = 2
+
+[node name="Circ15" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(-1.90735e-06, -9.53674e-07)
+rotation = -4.78661
+radius = 124
+point_count = 4
+color = Color(0.8, 0.8, 0.8, 1)
+width = 2
+
+[node name="Circ16" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -6.66706
+radius = 199
+point_count = 4
+color = Color(0.8, 0.8, 0.8, 1)
+width = 6
+
+[node name="Circ" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = 0.0872665
+point_count = 4
+color = Color(0, 0, 0, 1)
+
+[node name="Circ2" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -0.436333
+radius = 132
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 4
+
+[node name="Circ3" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -1.5708
+radius = 297
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 4
+
+[node name="Circ4" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -2.87979
+radius = 357
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 14
+
+[node name="Circ5" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -2.87979
+radius = 44
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 2
+
+[node name="Circ6" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -3.57793
+radius = 44
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 2
+
+[node name="Circ7" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -5.06146
+radius = 99
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 2
+
+[node name="Circ8" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(-1.90735e-06, -9.53674e-07)
+rotation = -4.40274
+radius = 124
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 2
+
+[node name="Circ9" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -6.28319
+radius = 199
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 6
+
+[node name="Circ10" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -8.63938
+radius = 449
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 6
+
+[node name="Circ18" parent="main_scene/ColorRect7/lerper_of_lerpers/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+rotation = -8.63938
+radius = 3
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 6
+
+[node name="ColorRect6" type="ColorRect" parent="main_scene"]
+visible = false
+offset_top = -334.0
 offset_right = 640.0
-offset_bottom = 352.0
+offset_bottom = 370.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect6"]
+layout_mode = 0
+offset_left = 329.31
+offset_top = -1235.79
+offset_right = 3193.31
+offset_bottom = 929.212
+rotation = 0.785398
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect6/ColorRect"]
+layout_mode = 0
+offset_left = 277.0
+offset_top = 309.0
+offset_right = 1245.0
+offset_bottom = 2373.0
+rotation = -0.0872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect6/ColorRect"]
+layout_mode = 0
+offset_left = 1242.02
+offset_top = 84.2151
+offset_right = 2210.02
+offset_bottom = 2148.22
+rotation = -0.0872665
+color = Color(0, 0, 0, 1)
+
+[node name="pack_of_lerpers" parent="main_scene/ColorRect6/ColorRect" instance=ExtResource("11_2hree")]
+position = Vector2(1012.91, 1495.6)
+rotation = -0.698132
+activated = false
+lerp_direction = Vector2(-5, 5)
+count_strength = 2.0
+size_x_scale = true
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 79.8439
+offset_top = 164.697
+offset_right = 345.844
+offset_bottom = 184.697
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 159.844
+offset_top = 108.697
+offset_right = 221.844
+offset_bottom = 128.697
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 215.844
+offset_top = 76.6968
+offset_right = 277.844
+offset_bottom = 96.6968
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 239.844
+offset_top = 12.6968
+offset_right = 301.844
+offset_bottom = 32.6968
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 251.844
+offset_top = -40.3032
+offset_right = 313.844
+offset_bottom = -20.3032
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect7" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 293.844
+offset_top = -89.3032
+offset_right = 355.844
+offset_bottom = -69.3032
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect8" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 334.844
+offset_top = -139.303
+offset_right = 357.844
+offset_bottom = -119.303
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect9" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 315.844
+offset_top = -83.3032
+offset_right = 338.844
+offset_bottom = -63.3032
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect10" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 283.844
+offset_top = -111.303
+offset_right = 306.844
+offset_bottom = -91.3032
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect11" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 279.844
+offset_top = 0.696777
+offset_right = 332.844
+offset_bottom = 10.6968
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect12" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 231.844
+offset_top = -35.3032
+offset_right = 284.844
+offset_bottom = -25.3032
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect13" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 195.844
+offset_top = 8.69678
+offset_right = 248.844
+offset_bottom = 18.6968
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect19" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 195.104
+offset_top = 27.099
+offset_right = 248.104
+offset_bottom = 37.099
+rotation = -2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect20" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 180.012
+offset_top = -7.71816
+offset_right = 233.012
+offset_bottom = 2.28184
+rotation = -2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect21" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 132.593
+offset_top = 12.4916
+offset_right = 185.593
+offset_bottom = 58.4916
+rotation = -2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect22" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 145.0
+offset_top = 44.0
+offset_right = 174.0
+offset_bottom = 90.0
+rotation = -2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect23" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 122.332
+offset_top = 21.4198
+offset_right = 151.332
+offset_bottom = 33.4198
+rotation = -2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect24" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 219.56
+offset_top = 77.158
+offset_right = 248.56
+offset_bottom = 89.158
+rotation = -2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect25" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 290.289
+offset_top = 151.276
+offset_right = 520.289
+offset_bottom = 158.276
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect26" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 105.647
+offset_top = -77.5024
+offset_right = 335.647
+offset_bottom = -70.5024
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect27" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = -35.8143
+offset_top = 95.485
+offset_right = 194.186
+offset_bottom = 102.485
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect14" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 348.844
+offset_top = -87.3032
+offset_right = 401.844
+offset_bottom = -77.3032
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect15" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 339.844
+offset_top = -111.303
+offset_right = 392.844
+offset_bottom = -101.303
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect16" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 334.844
+offset_top = -156.303
+offset_right = 387.844
+offset_bottom = -146.303
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect17" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 351.844
+offset_top = -156.303
+offset_right = 404.844
+offset_bottom = -146.303
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect18" type="ColorRect" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+offset_left = 359.844
+offset_top = -149.303
+offset_right = 412.844
+offset_bottom = -139.303
+rotation = -0.872665
+color = Color(0, 0, 0, 1)
+
+[node name="Circ" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(138.022, 40.1236)
+radius = 252
+color = Color(0, 0, 0, 1)
+
+[node name="Circ2" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(624.662, 118.007)
+radius = 252
+color = Color(0, 0, 0, 1)
+width = 4
+
+[node name="Circ3" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(331.734, -109.328)
+radius = 142
+color = Color(0, 0, 0, 1)
+width = 2
+
+[node name="Circ4" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(331.734, -109.328)
+radius = 132
+color = Color(0, 0, 0, 1)
+width = 2
+
+[node name="Circ5" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(331.734, -109.328)
+radius = 72
+color = Color(0, 0, 0, 1)
+width = 6
+
+[node name="Circ6" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(331.734, -109.328)
+radius = 207
+color = Color(0, 0, 0, 1)
+width = 6
+
+[node name="Circ7" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(331.734, -109.328)
+radius = 262
+color = Color(0, 0, 0, 1)
+width = 15
+
+[node name="Circ8" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(71.9247, 41.891)
+rotation = -0.174533
+radius = 22
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 3
+
+[node name="Circ9" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(364.668, 83.5354)
+rotation = -1.0249
+radius = 22
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 3
+
+[node name="Circ10" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(319.877, 76.412)
+rotation = -3.49066
+radius = 22
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 3
+
+[node name="Circ11" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(236.695, 43.5367)
+rotation = -3.49066
+radius = 44
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 3
+
+[node name="Circ12" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(153.813, -77.7011)
+rotation = -4.01426
+radius = 55
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 3
+
+[node name="Circ13" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(553.387, -88.5674)
+rotation = -4.01426
+radius = 55
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 3
+
+[node name="Circ14" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(607.182, -173.579)
+rotation = -6.02139
+radius = 55
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 28
+
+[node name="Circ15" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(85.6746, -168.106)
+rotation = -5.75959
+radius = 11
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 28
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(42.7624, -61.9625)
+rotation = -0.785398
+scale = Vector2(8.59601, 8.59601)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D2" type="Sprite2D" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(76.0107, -94.9859)
+rotation = -0.785398
+scale = Vector2(8.59601, 8.59601)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D3" type="Sprite2D" parent="main_scene/ColorRect6/ColorRect/pack_of_lerpers"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(78.0012, 65.4511)
+rotation = -0.785398
+scale = Vector2(8.59601, 8.59601)
+texture = ExtResource("2_y13ql")
+
+[node name="ColorRect5" type="ColorRect" parent="main_scene"]
+offset_top = -8.0
+offset_right = 640.0
+offset_bottom = 696.0
+
+[node name="lerper_of_lerpers" parent="main_scene/ColorRect5" instance=ExtResource("4_dx2lh")]
+activation_speed = 0.03
+
+[node name="circle" type="Node2D" parent="main_scene/ColorRect5/lerper_of_lerpers"]
+position = Vector2(320, 518)
+script = ExtResource("9_3bfty")
+lerp_direction = Vector2(0, 5555)
+count_strength = 1.0
+spin = true
+spin_push = -1
+
+[node name="Circ" parent="main_scene/ColorRect5/lerper_of_lerpers/circle" instance=ExtResource("10_w3hp0")]
+position = Vector2(0, -3)
+radius = 128
+color = Color(0, 0, 0, 1)
+
+[node name="Circ2" parent="main_scene/ColorRect5/lerper_of_lerpers/circle" instance=ExtResource("10_w3hp0")]
+position = Vector2(0, -3)
+radius = -140
+start_angle = -1.571
+color = Color(0, 0, 0, 1)
+width = 13
+
+[node name="Circ3" parent="main_scene/ColorRect5/lerper_of_lerpers/circle" instance=ExtResource("10_w3hp0")]
+position = Vector2(0, -3)
+radius = -145
+start_angle = -1.571
+end_angle = 1.017
+color = Color(0, 0, 0, 1)
+width = 23
+
+[node name="Circ4" parent="main_scene/ColorRect5/lerper_of_lerpers/circle" instance=ExtResource("10_w3hp0")]
+position = Vector2(0, -3)
+radius = -145
+start_angle = -3.376
+end_angle = -3.773
+color = Color(0, 0, 0, 1)
+width = 23
+
+[node name="Circ5" parent="main_scene/ColorRect5/lerper_of_lerpers/circle" instance=ExtResource("10_w3hp0")]
+position = Vector2(0, -3)
+radius = -175
+start_angle = -3.376
+end_angle = -6.838
+color = Color(0, 0, 0, 1)
+width = 3
+
+[node name="Circ6" parent="main_scene/ColorRect5/lerper_of_lerpers/circle" instance=ExtResource("10_w3hp0")]
+position = Vector2(0, -3)
+radius = -115
+start_angle = -3.376
+end_angle = -8.448
+color = Color(0, 0, 0, 1)
+width = 3
+
+[node name="Circ7" parent="main_scene/ColorRect5/lerper_of_lerpers/circle" instance=ExtResource("10_w3hp0")]
+position = Vector2(0, -3)
+radius = -120
+start_angle = 1.0
+end_angle = 2.0
+color = Color(0, 0, 0, 1)
+width = 15
+
+[node name="flyers" type="Node2D" parent="main_scene/ColorRect5/lerper_of_lerpers"]
+position = Vector2(0, 332)
+script = ExtResource("9_3bfty")
+lerp_direction = Vector2(-32, 32)
+lerp_mult_max = 1
+blink_distance = 2444
+push_direction = Vector2(1, -1)
+
+[node name="Line2D" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(72, 321)
+rotation = -0.785398
+scale = Vector2(2.13967, 2.13967)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Line2D2" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(48, 266)
+rotation = -0.785398
+scale = Vector2(1.47041, 1.47041)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Line2D3" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(40, 358)
+rotation = -0.785398
+scale = Vector2(1.00442, 1.00442)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Line2D4" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(108, 290)
+rotation = -0.785398
+scale = Vector2(0.85017, 0.85017)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Line2D5" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(122, 338)
+rotation = -0.785398
+scale = Vector2(1.96127, 1.96127)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Line2D7" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(148, 266)
+rotation = -0.785398
+scale = Vector2(1.96127, 1.96127)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Line2D8" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(128, 150)
+rotation = -0.785398
+scale = Vector2(1.35121, 1.35121)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Line2D9" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(464, 346)
+rotation = -0.785398
+scale = Vector2(2.83794, 2.83794)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Line2D10" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(524, 286)
+rotation = -0.785398
+scale = Vector2(1.19494, 1.19494)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Line2D11" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(536, 274)
+rotation = -0.785398
+scale = Vector2(1.19494, 1.19494)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Line2D12" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(548, 258)
+rotation = -0.785398
+scale = Vector2(1.19494, 1.19494)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Line2D6" type="Line2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(87, 270)
+rotation = -0.785398
+scale = Vector2(1.41852, 1.41852)
+points = PackedVector2Array(1, -24, 17, -8, 1, 8, -3, 4, 9, -8, -3, -20, 1, -24)
+closed = true
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Polygon2D2" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(52, 242)
+rotation = 2.35619
+scale = Vector2(1.04319, 1.04319)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D3" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(76, 214)
+rotation = 2.35619
+scale = Vector2(1.04319, 1.04319)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D4" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(112, 336)
+rotation = 2.35619
+scale = Vector2(0.641896, 0.641896)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D5" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(124, 322)
+rotation = 2.35619
+scale = Vector2(0.641896, 0.641896)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D6" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(136, 310)
+rotation = 2.35619
+scale = Vector2(0.641896, 0.641896)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D7" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(188, 311)
+rotation = 2.35619
+scale = Vector2(0.95706, 0.95706)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D8" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(36, 166)
+rotation = 2.35619
+scale = Vector2(0.484936, 0.484936)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D9" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(108, 214)
+rotation = 2.35619
+scale = Vector2(0.484936, 0.484936)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D10" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(148, 198)
+rotation = 2.35619
+scale = Vector2(0.484936, 0.484936)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D11" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(132, 266)
+rotation = 2.35619
+scale = Vector2(0.484936, 0.484936)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D12" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/flyers"]
+position = Vector2(132, 266)
+rotation = 2.35619
+scale = Vector2(0.484936, 0.484936)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="things" type="Node2D" parent="main_scene/ColorRect5/lerper_of_lerpers"]
+position = Vector2(0, 332)
+script = ExtResource("9_3bfty")
+lerp_direction = Vector2(32, 0)
+lerp_mult_max = 1
+blink_distance = 55
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+offset_left = 592.0
+offset_top = 18.0
+offset_right = 624.0
+offset_bottom = 121.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+offset_left = 596.0
+offset_top = 22.0
+offset_right = 620.0
+offset_bottom = 118.0
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+offset_left = 556.0
+offset_top = 18.0
+offset_right = 588.0
+offset_bottom = 70.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+offset_left = 560.0
+offset_top = 22.0
+offset_right = 584.0
+offset_bottom = 66.0
+
+[node name="Polygon2D" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(620, 130)
+rotation = 3.14159
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D2" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(620, 138)
+rotation = 3.14159
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D3" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(620, 146)
+rotation = 3.14159
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D4" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(564, 30)
+rotation = 3.14159
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D5" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(604, 110)
+rotation = 3.14159
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D6" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(556, 102)
+rotation = 4.71239
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D7" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(544, 90)
+rotation = 3.14159
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D8" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(532, 102)
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D9" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(544, 114)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D10" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(628, 234)
+rotation = 4.71239
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D11" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(616, 222)
+rotation = 3.14159
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D12" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(604, 234)
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D13" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(616, 246)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D14" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(476, 50)
+rotation = 4.71239
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D15" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(464, 38)
+rotation = 3.14159
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D16" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(452, 50)
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D17" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(464, 62)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D18" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(296, 34)
+rotation = 4.71239
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D19" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(284, 22)
+rotation = 3.14159
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D20" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(272, 34)
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="Polygon2D21" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things"]
+position = Vector2(284, 46)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4, 4, 0, -4, 4, 4)
+
+[node name="things2" type="Node2D" parent="main_scene/ColorRect5/lerper_of_lerpers"]
+position = Vector2(0, 332)
+script = ExtResource("9_3bfty")
+lerp_direction = Vector2(32, 0)
+lerp_mult_max = 1
+blink_distance = 55
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect5/lerper_of_lerpers/things2"]
+offset_left = 592.0
+offset_top = 18.0
+offset_right = 624.0
+offset_bottom = 121.0
+
+[node name="things3" type="Node2D" parent="main_scene/ColorRect5/lerper_of_lerpers"]
+position = Vector2(0, 332)
+script = ExtResource("9_3bfty")
+lerp_direction = Vector2(32, 0)
+lerp_mult_max = 1
+blink_distance = 55
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect5/lerper_of_lerpers/things3"]
+offset_left = 592.0
+offset_top = 18.0
+offset_right = 624.0
+offset_bottom = 121.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect5/lerper_of_lerpers/things3"]
+offset_left = 32.0
+offset_top = -54.0
+offset_right = 64.0
+offset_bottom = 49.0
+color = Color(0, 0, 0, 1)
+
+[node name="Polygon2D" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things3"]
+position = Vector2(157.6, -3)
+scale = Vector2(0.3, 0.3)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D2" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things3"]
+position = Vector2(170.6, -3)
+scale = Vector2(0.3, 0.3)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D3" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things3"]
+position = Vector2(186.6, -3)
+scale = Vector2(0.3, 0.3)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D4" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things3"]
+position = Vector2(-188, -3)
+rotation = 3.14159
+scale = Vector2(0.3, 0.3)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D5" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things3"]
+position = Vector2(-175, -3)
+rotation = 3.14159
+scale = Vector2(0.3, 0.3)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D6" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things3"]
+position = Vector2(-159, -3)
+rotation = 3.14159
+scale = Vector2(0.3, 0.3)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D7" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things3"]
+position = Vector2(-280, -142)
+rotation = 3.92699
+scale = Vector2(1.0564, 1.0564)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D8" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things3"]
+position = Vector2(-304, -128)
+rotation = 3.92699
+scale = Vector2(0.248495, 0.248495)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="Polygon2D9" type="Polygon2D" parent="main_scene/ColorRect5/lerper_of_lerpers/things3"]
+position = Vector2(-272, -168)
+rotation = 3.92699
+scale = Vector2(0.248495, 0.248495)
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(32, -24, 8, 0, 32, 24, 40, 16, 24, 0, 40, -16)
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect5"]
+layout_mode = 0
+offset_left = 1168.0
+offset_top = -2198.0
+offset_right = 4032.0
+offset_bottom = -33.0
+rotation = 0.785398
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect5/ColorRect"]
+layout_mode = 0
+offset_left = 1290.0
+offset_top = 762.0
+offset_right = 1301.0
+offset_bottom = 2298.0
+rotation = -0.0872665
 
 [node name="ColorRect4" type="ColorRect" parent="main_scene"]
+visible = false
 offset_left = -40.0
 offset_top = -224.0
 offset_right = 1322.0
 offset_bottom = 584.0
+color = Color(0, 0, 0, 1)
 
 [node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect4"]
 layout_mode = 0
@@ -1195,7 +4148,6 @@ offset_top = 307.585
 offset_right = 1502.0
 offset_bottom = 957.585
 rotation = 1.5708
-color = Color(0, 0, 0, 1)
 
 [node name="pack_of_lerpers" parent="main_scene/ColorRect4" instance=ExtResource("11_2hree")]
 position = Vector2(783.02, 404.585)
@@ -1212,17 +4164,621 @@ falloff = true
 count_strength = 4.0
 blink_distance = 1200
 lerp_strength = 0.2
+starting_scale = true
+random_pos = true
 
 [node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
-offset_left = -395.0
-offset_top = -25.0
-offset_right = -372.0
-rotation = 2.18166
+offset_left = 92.98
+offset_top = -116.571
+offset_right = 116.98
+offset_bottom = -94.5715
+rotation = 2.26893
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 168.98
+offset_top = -168.571
+offset_right = 284.98
+offset_bottom = -146.571
+rotation = 2.26893
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 180.98
+offset_top = -132.571
+offset_right = 296.98
+offset_bottom = -110.571
+rotation = 2.26893
+
+[node name="ColorRect5" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 224.98
+offset_top = -140.571
+offset_right = 340.98
+offset_bottom = -118.571
+rotation = 2.26893
+
+[node name="ColorRect6" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 228.98
+offset_top = -124.571
+offset_right = 344.98
+offset_bottom = -118.571
+rotation = 2.26893
+
+[node name="ColorRect7" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 340.98
+offset_top = -144.571
+offset_right = 456.98
+offset_bottom = -138.571
+rotation = 2.26893
+
+[node name="ColorRect8" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 400.98
+offset_top = -124.571
+offset_right = 516.98
+offset_bottom = -72.5715
+rotation = 2.26893
+
+[node name="ColorRect9" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 259.98
+offset_top = 53.4285
+offset_right = 375.98
+offset_bottom = 105.429
+rotation = 2.26893
+
+[node name="ColorRect10" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 220.98
+offset_top = 10.4285
+offset_right = 336.98
+offset_bottom = 62.4285
+rotation = 2.26893
+
+[node name="ColorRect11" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 116.98
+offset_top = 40.4285
+offset_right = 232.98
+offset_bottom = 63.4285
+rotation = 2.26893
+
+[node name="ColorRect12" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 128.98
+offset_top = 67.4285
+offset_right = 244.98
+offset_bottom = 90.4285
+rotation = 2.26893
+
+[node name="ColorRect13" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 332.98
+offset_top = 43.4285
+offset_right = 448.98
+offset_bottom = 66.4285
+rotation = 2.26893
+
+[node name="ColorRect14" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 372.98
+offset_top = 19.4285
+offset_right = 488.98
+offset_bottom = 30.4285
+rotation = 2.26893
+
+[node name="ColorRect15" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 328.98
+offset_top = 3.42852
+offset_right = 444.98
+offset_bottom = 14.4285
+rotation = 2.26893
+
+[node name="ColorRect16" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 296.98
+offset_top = 63.4285
+offset_right = 412.98
+offset_bottom = 71.4285
+rotation = 2.26893
+
+[node name="ColorRect17" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 460.98
+offset_top = 13.4285
+offset_right = 576.98
+offset_bottom = 21.4285
+rotation = 2.26893
+
+[node name="ColorRect18" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 508.98
+offset_top = 10.4285
+offset_right = 624.98
+offset_bottom = 40.4285
+rotation = 2.26893
+
+[node name="ColorRect19" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 528.98
+offset_top = -96.5715
+offset_right = 644.98
+offset_bottom = -66.5715
+rotation = 2.26893
+
+[node name="ColorRect20" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 476.98
+offset_top = -92.5715
+offset_right = 592.98
+offset_bottom = -62.5715
+rotation = 2.26893
+
+[node name="ColorRect21" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 508.98
+offset_top = -152.572
+offset_right = 624.98
+offset_bottom = -122.572
+rotation = 2.26893
+
+[node name="ColorRect22" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 28.9799
+offset_top = -100.571
+offset_right = 144.98
+offset_bottom = -70.5715
+rotation = 2.26893
+
+[node name="ColorRect23" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = -7.02002
+offset_top = -100.571
+offset_right = 108.98
+offset_bottom = -70.5715
+rotation = 2.26893
+
+[node name="ColorRect24" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 41.0
+offset_top = -127.0
+offset_right = 157.0
+offset_bottom = -109.0
+rotation = 2.26893
+
+[node name="ColorRect25" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 16.98
+offset_top = 10.4285
+offset_right = 132.98
+offset_bottom = 28.4285
+rotation = 2.26893
+
+[node name="ColorRect26" type="ColorRect" parent="main_scene/ColorRect4/pack_of_lerpers2"]
+offset_left = 184.98
+offset_top = 0.428516
+offset_right = 300.98
+offset_bottom = 18.4285
+rotation = 2.26893
+
+[node name="spinnus" type="Node2D" parent="main_scene/ColorRect4"]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect4/spinnus"]
+offset_left = -975.0
+offset_top = -597.0
+offset_right = 1076.0
+offset_bottom = 659.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect4/spinnus"]
+offset_left = -363.0
+offset_top = -42.9311
+offset_right = 466.0
+offset_bottom = 51.069
+
+[node name="Circ" parent="main_scene/ColorRect4/spinnus" instance=ExtResource("10_w3hp0")]
+position = Vector2(41, 13.0689)
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="main_scene/ColorRect4"]
+z_index = 1
+clip_contents = true
+layout_mode = 0
+offset_left = 720.0
+offset_top = 328.013
+offset_right = 854.0
+offset_bottom = 346.013
+scale = Vector2(2.29297, 2.29297)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect2"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = -14.0
+offset_top = -15.0
+offset_right = 161.0
+offset_bottom = 52.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="main_scene/ColorRect4/NinePatchRect2"]
+layout_mode = 0
+offset_left = 2.45264
+offset_top = -0.8
+offset_right = 175.453
+offset_bottom = 87.2
+scale = Vector2(0.227622, 0.227622)
+text = "儚い声届かなくて 染ま"
+label_settings = SubResource("LabelSettings_7umvc")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="main_scene/ColorRect4"]
+clip_contents = true
+layout_mode = 0
+offset_left = 686.0
+offset_top = 312.0
+offset_right = 1328.0
+offset_bottom = 468.0
+
+[node name="Node2D" type="Node2D" parent="main_scene/ColorRect4/NinePatchRect"]
+script = ExtResource("9_3bfty")
+lerp_direction = Vector2(0, 5)
+count_strength = 3.0
+blink_distance = 2555
+lerp_strength = 0.2
+push_direction = Vector2(0.5, 0)
+starting_scale = true
+random_pos = true
+
+[node name="Circ" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(62, 24.0135)
+rotation = 46581.4
+radius = 55
+point_count = 4
+color = Color(0, 0, 0, 1)
+spin_rand = 3.0
+
+[node name="Circ2" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(30, 76.0135)
+rotation = -26144.5
+radius = 50
+point_count = 4
+color = Color(0, 0, 0, 1)
+spin_rand = 3.0
+
+[node name="Circ3" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(166, 152.014)
+rotation = -57821.6
+radius = 50
+point_count = 4
+color = Color(0, 0, 0, 1)
+spin_rand = 3.0
+
+[node name="Circ4" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(106, 126.014)
+rotation = 48711.9
+radius = 50
+point_count = 4
+color = Color(0, 0, 0, 1)
+spin_rand = 3.0
+
+[node name="Circ5" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(34, 135.014)
+rotation = -9723.71
+radius = 50
+point_count = 4
+color = Color(0, 0, 0, 1)
+spin_rand = 3.0
+
+[node name="Circ6" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(126, 66.0135)
+rotation = -9086.35
+radius = 33
+point_count = 4
+color = Color(0, 0, 0, 1)
+spin_rand = 3.0
+
+[node name="Circ7" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(218, 116.014)
+rotation = -46244.4
+radius = 33
+point_count = 4
+color = Color(0, 0, 0, 1)
+spin_rand = 3.0
+
+[node name="Circ8" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(162, 80.0135)
+rotation = -30765.7
+radius = 11
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 3
+spin_rand = 3.0
+
+[node name="Circ9" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(214, 68.0135)
+rotation = -22171.9
+radius = 11
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 3
+spin_rand = 3.0
+
+[node name="Circ10" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(294, 132.014)
+rotation = 1506.63
+radius = 11
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 3
+spin_rand = 3.0
+
+[node name="Circ11" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(258, 96.0135)
+rotation = 9112.38
+radius = 8
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 2
+spin_rand = 3.0
+
+[node name="Circ12" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(242, 81.0135)
+rotation = -850.263
+radius = 6
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 1
+spin_rand = 3.0
+
+[node name="Circ13" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(175, 68.0135)
+rotation = 17740.1
+radius = 6
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 1
+spin_rand = 3.0
+
+[node name="Circ14" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(298, 93.0135)
+rotation = 76788.9
+radius = 6
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 1
+spin_rand = 3.0
+
+[node name="Circ15" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(286, 84.0135)
+rotation = 2566.49
+radius = 6
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 1
+spin_rand = 3.0
+
+[node name="Circ16" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(285, 100.014)
+rotation = -15911.9
+radius = 6
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 1
+spin_rand = 3.0
+
+[node name="Circ17" parent="main_scene/ColorRect4/NinePatchRect/Node2D" instance=ExtResource("10_w3hp0")]
+position = Vector2(290, 112.014)
+rotation = 67573.9
+radius = 6
+point_count = 4
+color = Color(0, 0, 0, 1)
+width = 1
+spin_rand = 3.0
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 311.512
+offset_top = 128.0
+offset_right = 325.512
+offset_bottom = 168.0
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 385.0
+offset_top = 69.0
+offset_right = 399.0
+offset_bottom = 192.0
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 351.512
+offset_top = 92.0
+offset_right = 365.512
+offset_bottom = 162.0
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 387.512
+offset_top = 92.0
+offset_right = 395.512
+offset_bottom = 162.0
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 379.512
+offset_top = 120.0
+offset_right = 387.512
+offset_bottom = 190.0
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 463.512
+offset_top = -18.0
+offset_right = 471.512
+offset_bottom = 52.0
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect7" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 463.512
+offset_right = 471.512
+offset_bottom = 70.0
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect8" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 487.512
+offset_top = -12.0
+offset_right = 516.512
+offset_bottom = 58.0
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect9" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 483.512
+offset_top = 16.0
+offset_right = 488.512
+offset_bottom = 86.0
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect10" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 491.512
+offset_top = 38.0
+offset_right = 496.512
+offset_bottom = 108.0
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect11" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 535.512
+offset_top = -20.0
+offset_right = 540.512
+offset_bottom = 50.0
+rotation = 0.698132
+color = Color(0, 0, 0, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(403.512, 144)
+rotation = 0.785398
+scale = Vector2(3.89159, 3.89159)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D2" type="Sprite2D" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(421.512, 144)
+rotation = 0.785398
+scale = Vector2(3.89159, 3.89159)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D3" type="Sprite2D" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(438.271, 144)
+rotation = 0.785398
+scale = Vector2(3.89159, 3.89159)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D4" type="Sprite2D" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(456.271, 144)
+rotation = 0.785398
+scale = Vector2(3.89159, 3.89159)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D5" type="Sprite2D" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(473.271, 144)
+rotation = 0.785398
+scale = Vector2(3.89159, 3.89159)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D6" type="Sprite2D" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(491.271, 144)
+rotation = 0.785398
+scale = Vector2(3.89159, 3.89159)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D7" type="Sprite2D" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(537.271, 13.7589)
+rotation = 0.785398
+scale = Vector2(3.89159, 3.89159)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D8" type="Sprite2D" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(555.271, 13.7589)
+rotation = 0.785398
+scale = Vector2(3.89159, 3.89159)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D9" type="Sprite2D" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(355.271, 27.7588)
+rotation = 0.785398
+scale = Vector2(2, 2)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D10" type="Sprite2D" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(355.512, 39)
+rotation = 0.785398
+scale = Vector2(2, 2)
+texture = ExtResource("2_y13ql")
+
+[node name="ColorRect12" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 307.512
+offset_top = 24.0
+offset_right = 347.512
+offset_bottom = 64.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect13" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 315.512
+offset_top = 32.0
+offset_right = 355.512
+offset_bottom = 72.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect14" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 301.512
+offset_top = -32.0
+offset_right = 341.512
+offset_bottom = 8.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect15" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 612.0
+offset_top = 8.0
+offset_right = 628.0
+offset_bottom = 24.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect16" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 624.0
+offset_top = 28.0
+offset_right = 628.0
+offset_bottom = 84.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect17" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 607.512
+offset_top = 8.0
+offset_right = 611.512
+offset_bottom = 64.0
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect18" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 620.0
+offset_top = 38.0
+offset_right = 624.0
+offset_bottom = 49.0
+rotation = 3.14159
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect19" type="ColorRect" parent="main_scene/ColorRect4/NinePatchRect/Node2D"]
+offset_left = 607.512
+offset_top = 16.0
+offset_right = 611.512
+offset_bottom = 27.0
+rotation = 1.5708
+color = Color(0, 0, 0, 1)
 
 [node name="ColorRect3" type="ColorRect" parent="main_scene"]
 offset_left = -517.0
 offset_right = 4501.0
-offset_bottom = 716.999
+offset_bottom = 717.005
 color = Color(0, 0, 0, 1)
 
 [node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect3"]
@@ -1236,79 +4792,472 @@ offset_bottom = 104.0
 script = ExtResource("9_3bfty")
 lerp_direction = Vector2(128, 128)
 lerp_mult_min = 1
-cycle_thru_push = false
 count_strength = 0.3
-blink_distance = 5000
+
+[node name="ColorRect10" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 517.0
+offset_top = 316.0
+offset_right = 753.0
+offset_bottom = 434.0
+rotation = 0.785398
+
+[node name="ColorRect11" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 581.0
+offset_top = 237.0
+offset_right = 596.0
+offset_bottom = 355.0
+rotation = 2.3562
+
+[node name="ColorRect12" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 571.315
+offset_top = 165.0
+offset_right = 586.315
+offset_bottom = 468.0
+rotation = 2.3562
+
+[node name="ColorRect13" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 684.315
+offset_top = 234.0
+offset_right = 699.315
+offset_bottom = 537.0
+rotation = 2.3562
+
+[node name="ColorRect14" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 684.315
+offset_top = 138.0
+offset_right = 699.315
+offset_bottom = 441.0
+rotation = 2.3562
+
+[node name="ColorRect15" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 628.315
+offset_top = 351.0
+offset_right = 643.315
+offset_bottom = 654.0
+rotation = 2.3562
+
+[node name="ColorRect16" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 644.315
+offset_top = 324.0
+offset_right = 649.315
+offset_bottom = 627.0
+rotation = 2.3562
+
+[node name="ColorRect17" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 740.315
+offset_top = 178.0
+offset_right = 745.315
+offset_bottom = 481.0
+rotation = 2.3562
+
+[node name="ColorRect18" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 654.315
+offset_top = 138.0
+offset_right = 659.315
+offset_bottom = 441.0
+rotation = 2.3562
+
+[node name="ColorRect19" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 654.315
+offset_top = 154.0
+offset_right = 659.315
+offset_bottom = 457.0
+rotation = 2.3562
+
+[node name="ColorRect20" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 1075.31
+offset_top = 223.0
+offset_right = 1080.31
+offset_bottom = 526.0
+rotation = 2.3562
+
+[node name="ColorRect28" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1306.55
+offset_top = 259.254
+offset_right = 1321.55
+offset_bottom = 562.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect29" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1419.55
+offset_top = 328.254
+offset_right = 1434.55
+offset_bottom = 631.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect30" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1419.55
+offset_top = 232.254
+offset_right = 1434.55
+offset_bottom = 535.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect31" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1363.55
+offset_top = 445.254
+offset_right = 1378.55
+offset_bottom = 748.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect32" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1379.55
+offset_top = 418.254
+offset_right = 1384.55
+offset_bottom = 721.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect33" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1475.55
+offset_top = 272.254
+offset_right = 1480.55
+offset_bottom = 575.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect34" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1389.55
+offset_top = 232.254
+offset_right = 1394.55
+offset_bottom = 535.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect35" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1389.55
+offset_top = 248.254
+offset_right = 1394.55
+offset_bottom = 551.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect36" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1810.55
+offset_top = 317.254
+offset_right = 1815.55
+offset_bottom = 620.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect46" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1642.55
+offset_top = 295.254
+offset_right = 1657.55
+offset_bottom = 598.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect47" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1755.55
+offset_top = 364.254
+offset_right = 1770.55
+offset_bottom = 667.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect55" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2151.21
+offset_top = 327.254
+offset_right = 2166.21
+offset_bottom = 630.254
+rotation = 2.3562
+
+[node name="ColorRect56" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2264.21
+offset_top = 396.254
+offset_right = 2279.21
+offset_bottom = 699.254
+rotation = 2.3562
+
+[node name="ColorRect57" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2264.21
+offset_top = 300.254
+offset_right = 2279.21
+offset_bottom = 603.254
+rotation = 2.3562
+
+[node name="ColorRect58" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2208.21
+offset_top = 513.254
+offset_right = 2223.21
+offset_bottom = 816.254
+rotation = 2.3562
+
+[node name="ColorRect59" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2224.21
+offset_top = 486.254
+offset_right = 2229.21
+offset_bottom = 789.254
+rotation = 2.3562
+
+[node name="ColorRect60" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2320.21
+offset_top = 340.254
+offset_right = 2325.21
+offset_bottom = 643.254
+rotation = 2.3562
+
+[node name="ColorRect61" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2234.21
+offset_top = 300.254
+offset_right = 2239.21
+offset_bottom = 603.254
+rotation = 2.3562
+
+[node name="ColorRect62" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2234.21
+offset_top = 316.254
+offset_right = 2239.21
+offset_bottom = 619.254
+rotation = 2.3562
+
+[node name="ColorRect63" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2655.21
+offset_top = 385.254
+offset_right = 2660.21
+offset_bottom = 688.254
+rotation = 2.3562
+
+[node name="ColorRect64" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2487.21
+offset_top = 363.254
+offset_right = 2502.21
+offset_bottom = 666.254
+rotation = 2.3562
+
+[node name="ColorRect65" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2600.21
+offset_top = 432.254
+offset_right = 2615.21
+offset_bottom = 735.254
+rotation = 2.3562
+
+[node name="ColorRect48" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1755.55
+offset_top = 268.254
+offset_right = 1770.55
+offset_bottom = 571.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect49" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1699.55
+offset_top = 481.254
+offset_right = 1714.55
+offset_bottom = 784.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect50" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1715.55
+offset_top = 454.254
+offset_right = 1720.55
+offset_bottom = 757.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect51" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1811.55
+offset_top = 308.254
+offset_right = 1816.55
+offset_bottom = 611.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect52" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1725.55
+offset_top = 268.254
+offset_right = 1730.55
+offset_bottom = 571.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect53" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1725.55
+offset_top = 284.254
+offset_right = 1730.55
+offset_bottom = 587.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect54" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 2146.55
+offset_top = 353.254
+offset_right = 2151.55
+offset_bottom = 656.254
+rotation = 2.3562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect37" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 812.296
+offset_top = 535.86
+offset_right = 827.296
+offset_bottom = 838.86
+rotation = 3.92699
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect38" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 925.296
+offset_top = 604.86
+offset_right = 940.296
+offset_bottom = 907.86
+rotation = 3.92699
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect39" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 925.296
+offset_top = 508.86
+offset_right = 940.296
+offset_bottom = 811.86
+rotation = 3.92699
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect40" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 869.296
+offset_top = 721.86
+offset_right = 884.296
+offset_bottom = 1024.86
+rotation = 3.92699
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect41" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 885.296
+offset_top = 694.86
+offset_right = 890.296
+offset_bottom = 997.86
+rotation = 3.92699
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect42" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 981.296
+offset_top = 548.86
+offset_right = 986.296
+offset_bottom = 851.86
+rotation = 3.92699
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect43" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 895.296
+offset_top = 508.86
+offset_right = 900.296
+offset_bottom = 811.86
+rotation = 3.92699
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect44" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 895.296
+offset_top = 524.86
+offset_right = 900.296
+offset_bottom = 827.86
+rotation = 3.92699
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect45" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+z_index = 1
+offset_left = 1316.3
+offset_top = 593.86
+offset_right = 1321.3
+offset_bottom = 896.86
+rotation = 3.92699
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect21" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 1053.31
+offset_top = 223.0
+offset_right = 1058.31
+offset_bottom = 526.0
+rotation = 2.3562
+
+[node name="ColorRect22" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 930.315
+offset_top = 172.0
+offset_right = 935.315
+offset_bottom = 475.0
+rotation = 2.3562
+
+[node name="ColorRect23" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 930.315
+offset_top = 190.0
+offset_right = 935.315
+offset_bottom = 493.0
+rotation = 2.3562
+
+[node name="ColorRect24" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 887.0
+offset_top = 172.0
+offset_right = 906.0
+offset_bottom = 475.0
+rotation = 2.3562
+
+[node name="ColorRect25" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 887.0
+offset_top = 172.0
+offset_right = 906.0
+offset_bottom = 475.0
+rotation = 2.3562
+
+[node name="ColorRect26" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
+offset_left = 1011.31
+offset_top = 190.0
+offset_right = 1030.31
+offset_bottom = 493.0
+rotation = 2.3562
 
 [node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
-offset_left = 621.078
-offset_top = 90.0
-offset_right = 631.078
-offset_bottom = 352.0
-rotation = 0.785398
-
-[node name="ColorRect7" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
-offset_left = 639.078
-offset_top = 90.0
-offset_right = 649.078
-offset_bottom = 352.0
-rotation = 0.785398
-
-[node name="ColorRect8" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
-offset_left = 533.078
-offset_top = 218.0
-offset_right = 543.078
-offset_bottom = 247.0
-rotation = 0.785398
-
-[node name="ColorRect9" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
-offset_left = 556.078
-offset_top = 194.0
-offset_right = 566.078
-offset_bottom = 223.0
-rotation = 0.785398
-
-[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
-offset_left = 533.078
-offset_top = 324.0
-offset_right = 586.078
-offset_bottom = 379.0
-rotation = -0.785398
-
-[node name="ColorRect4" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
-offset_left = 509.078
-offset_top = 298.0
-offset_right = 537.078
-offset_bottom = 322.0
-rotation = -0.785398
-
-[node name="ColorRect5" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
-offset_left = 685.078
-offset_top = 498.0
-offset_right = 691.078
-offset_bottom = 551.0
-rotation = -2.3562
-
-[node name="ColorRect6" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
-offset_left = 623.0
-offset_top = 395.0
-offset_right = 724.0
-offset_bottom = 409.0
-rotation = 0.785398
-
-[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect3/parallax_1"]
-offset_left = 580.078
-offset_top = 370.0
-offset_right = 624.078
-offset_bottom = 414.0
-rotation = -0.785398
+offset_left = 1232.31
+offset_top = 674.0
+offset_right = 1251.31
+offset_bottom = 977.0
+rotation = 2.3562
 
 [node name="parallax_2" type="Node2D" parent="main_scene/ColorRect3"]
 script = ExtResource("9_3bfty")
 lerp_direction = Vector2(64, 0)
 lerp_mult_min = 1
 cycle_thru_push = false
-blink_distance = 30
+blink_distance = 9999999
+push_direction = Vector2(-15, 0)
 
 [node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect3/parallax_2"]
 offset_left = 3293.0
@@ -1873,14 +5822,1638 @@ rotation = -0.785398
 scale = Vector2(3.14706, 3.14706)
 texture = ExtResource("2_y13ql")
 
+[node name="Sprite2D20" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1730.75, 290)
+rotation = -0.785398
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D21" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1699.75, 259)
+rotation = -0.785398
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D22" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2259.75, 170)
+rotation = -0.785398
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D23" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2219.75, 170)
+rotation = -0.785398
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D24" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2179.75, 170)
+rotation = -0.785398
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D25" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1971.75, 458)
+rotation = -0.785398
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D26" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1538.19, 458)
+rotation = -0.785398
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D27" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1498.19, 458)
+rotation = -0.785398
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="NinePatchRect31" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("7_fpnq3")
+
+[node name="NinePatchRect32" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1352.94
+offset_top = 223.0
+offset_right = 1392.94
+offset_bottom = 287.0
+scale = Vector2(4, 4)
+texture = ExtResource("1_l5i0t")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 5
+patch_margin_bottom = 5
+
+[node name="NinePatchRect33" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1532.94
+offset_top = 165.0
+offset_right = 1572.94
+offset_bottom = 229.0
+scale = Vector2(4, 4)
+texture = ExtResource("1_l5i0t")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 5
+patch_margin_bottom = 5
+
+[node name="NinePatchRect34" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1444.94
+offset_top = 178.0
+offset_right = 1457.94
+offset_bottom = 186.0
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect35" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1293.0
+offset_top = 257.0
+offset_right = 1306.0
+offset_bottom = 295.0
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect36" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1237.0
+offset_top = 370.0
+offset_right = 1250.0
+offset_bottom = 380.0
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect37" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1237.0
+offset_top = 324.0
+offset_right = 1250.0
+offset_bottom = 334.0
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect38" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1523.0
+offset_top = 424.0
+offset_right = 1617.0
+offset_bottom = 434.0
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect39" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1960.0
+offset_top = 154.0
+offset_right = 2068.0
+offset_bottom = 262.0
+rotation = 0.785398
+scale = Vector2(2, 2)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect40" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1960.0
+offset_top = 168.0
+offset_right = 2057.0
+offset_bottom = 265.0
+rotation = 0.785398
+scale = Vector2(2, 2)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect41" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1778.0
+offset_top = -21.0
+offset_right = 1799.0
+offset_bottom = 24.0
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect42" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1813.93
+offset_top = 9.0
+offset_right = 1834.93
+offset_bottom = 54.0
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect43" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1856.93
+offset_top = -48.0
+offset_right = 1877.93
+offset_bottom = -2.99999
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect44" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1912.93
+offset_top = 394.0
+offset_right = 1933.93
+offset_bottom = 439.0
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect45" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1983.93
+offset_top = 360.0
+offset_right = 2004.93
+offset_bottom = 405.0
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect46" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1792.93
+offset_top = 424.0
+offset_right = 1813.93
+offset_bottom = 469.0
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect47" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1708.0
+offset_top = 310.0
+offset_right = 1723.0
+offset_bottom = 355.0
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect48" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1708.0
+offset_top = 284.0
+offset_right = 1723.0
+offset_bottom = 288.0
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect49" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2074.93
+offset_top = 174.0
+offset_right = 2089.93
+offset_bottom = 190.0
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="Sprite2D28" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2134.93, 360)
+rotation = -0.785398
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D29" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2163.93, 386)
+rotation = -0.785398
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D30" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1804.93, 351)
+rotation = -0.785398
+scale = Vector2(4.02548, 4.02548)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D31" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2088.93, 474)
+rotation = -0.785398
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D32" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1961.93, 116)
+rotation = -0.785398
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D33" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1624.93, 410)
+rotation = -0.785398
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D34" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1672.93, 482)
+rotation = -0.785398
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D35" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1624.93, 314)
+rotation = -0.785398
+scale = Vector2(13.621, 13.621)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D36" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1600.93, 234)
+rotation = -0.785398
+scale = Vector2(13.621, 13.621)
+texture = ExtResource("2_y13ql")
+
+[node name="NinePatchRect50" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2120.93
+offset_top = 128.0
+offset_right = 2135.93
+offset_bottom = 144.0
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect51" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2093.0
+offset_top = 242.0
+offset_right = 2099.0
+offset_bottom = 249.0
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect52" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2135.93
+offset_top = 287.0
+offset_right = 2142.93
+offset_bottom = 294.0
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect53" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1782.93
+offset_top = 287.0
+offset_right = 1789.93
+offset_bottom = 294.0
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect54" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1952.93
+offset_top = 287.0
+offset_right = 1959.93
+offset_bottom = 294.0
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect55" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2108.93
+offset_top = 370.0
+offset_right = 2165.93
+offset_bottom = 420.0
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect56" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1779.93
+offset_top = 351.0
+offset_right = 1836.93
+offset_bottom = 401.0
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect57" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1656.93
+offset_top = 138.0
+offset_right = 1713.93
+offset_bottom = 188.0
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect58" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2232.93
+offset_right = 2289.93
+offset_bottom = 50.0
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect59" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2232.93
+offset_top = 31.9999
+offset_right = 2289.93
+offset_bottom = 81.9999
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect60" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2232.93
+offset_top = 63.0
+offset_right = 2289.93
+offset_bottom = 113.0
+rotation = 0.785398
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="Sprite2D37" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1706.94, 414)
+rotation = -0.785398
+scale = Vector2(3.14706, 3.14706)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D38" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1722.94, 414)
+rotation = -0.785398
+scale = Vector2(3.14706, 3.14706)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D39" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1792.11, 400.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D40" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1761.11, 369.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D41" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2321.11, 280.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D42" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2281.11, 280.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D43" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2241.11, 280.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D44" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2033.11, 568.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D45" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1599.55, 568.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D46" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1559.55, 568.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="NinePatchRect61" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+offset_left = 61.3574
+offset_top = 110.642
+offset_right = 101.357
+offset_bottom = 150.642
+rotation = -3.14159
+texture = ExtResource("7_fpnq3")
+
+[node name="NinePatchRect62" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1414.3
+offset_top = 333.642
+offset_right = 1454.3
+offset_bottom = 397.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("1_l5i0t")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 5
+patch_margin_bottom = 5
+
+[node name="NinePatchRect63" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1594.3
+offset_top = 275.642
+offset_right = 1634.3
+offset_bottom = 339.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("1_l5i0t")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 5
+patch_margin_bottom = 5
+
+[node name="NinePatchRect64" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1506.3
+offset_top = 288.642
+offset_right = 1519.3
+offset_bottom = 296.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect65" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1354.36
+offset_top = 367.642
+offset_right = 1367.36
+offset_bottom = 405.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect66" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1298.36
+offset_top = 480.642
+offset_right = 1311.36
+offset_bottom = 490.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect67" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1298.36
+offset_top = 434.642
+offset_right = 1311.36
+offset_bottom = 444.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect68" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1584.36
+offset_top = 534.642
+offset_right = 1678.36
+offset_bottom = 544.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect69" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2021.36
+offset_top = 264.642
+offset_right = 2129.36
+offset_bottom = 372.642
+rotation = -2.3562
+scale = Vector2(2, 2)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect70" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2021.36
+offset_top = 278.642
+offset_right = 2118.36
+offset_bottom = 375.642
+rotation = -2.3562
+scale = Vector2(2, 2)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect71" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1839.36
+offset_top = 89.6417
+offset_right = 1860.36
+offset_bottom = 134.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect72" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1875.29
+offset_top = 119.642
+offset_right = 1896.29
+offset_bottom = 164.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect73" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1918.29
+offset_top = 62.6417
+offset_right = 1939.29
+offset_bottom = 107.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect74" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1974.29
+offset_top = 504.642
+offset_right = 1995.29
+offset_bottom = 549.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect75" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2045.29
+offset_top = 470.642
+offset_right = 2066.29
+offset_bottom = 515.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect76" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1854.29
+offset_top = 534.642
+offset_right = 1875.29
+offset_bottom = 579.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect77" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1769.36
+offset_top = 420.642
+offset_right = 1784.36
+offset_bottom = 465.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect78" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1769.36
+offset_top = 394.642
+offset_right = 1784.36
+offset_bottom = 398.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect79" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2136.29
+offset_top = 284.642
+offset_right = 2151.29
+offset_bottom = 300.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="Sprite2D47" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2196.29, 470.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D48" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2225.29, 496.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D49" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1866.29, 461.642)
+rotation = -3.92699
+scale = Vector2(4.02548, 4.02548)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D50" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2150.29, 584.642)
+rotation = -3.92699
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D51" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2023.29, 226.642)
+rotation = -3.92699
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D52" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1686.29, 520.642)
+rotation = -3.92699
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D53" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1734.29, 592.642)
+rotation = -3.92699
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D54" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1686.29, 424.642)
+rotation = -3.92699
+scale = Vector2(13.621, 13.621)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D55" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1662.29, 344.642)
+rotation = -3.92699
+scale = Vector2(13.621, 13.621)
+texture = ExtResource("2_y13ql")
+
+[node name="NinePatchRect80" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2182.29
+offset_top = 238.642
+offset_right = 2197.29
+offset_bottom = 254.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect81" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2154.36
+offset_top = 352.642
+offset_right = 2160.36
+offset_bottom = 359.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect82" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2197.29
+offset_top = 397.642
+offset_right = 2204.29
+offset_bottom = 404.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect83" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1844.29
+offset_top = 397.642
+offset_right = 1851.29
+offset_bottom = 404.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect84" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2014.29
+offset_top = 397.642
+offset_right = 2021.29
+offset_bottom = 404.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect85" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2170.29
+offset_top = 480.642
+offset_right = 2227.29
+offset_bottom = 530.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect86" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1841.29
+offset_top = 461.642
+offset_right = 1898.29
+offset_bottom = 511.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect87" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1718.29
+offset_top = 248.642
+offset_right = 1775.29
+offset_bottom = 298.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect88" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2294.29
+offset_top = 110.642
+offset_right = 2351.29
+offset_bottom = 160.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect89" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2294.29
+offset_top = 142.642
+offset_right = 2351.29
+offset_bottom = 192.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect90" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2294.29
+offset_top = 173.642
+offset_right = 2351.29
+offset_bottom = 223.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="Sprite2D56" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1768.3, 524.642)
+rotation = -3.92699
+scale = Vector2(3.14706, 3.14706)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D57" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1784.3, 524.642)
+rotation = -3.92699
+scale = Vector2(3.14706, 3.14706)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D58" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1792.11, 400.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D59" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1761.11, 369.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D60" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2321.11, 280.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D61" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2281.11, 280.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D62" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2241.11, 280.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D63" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2033.11, 568.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D64" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1599.55, 568.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D65" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1559.55, 568.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="NinePatchRect91" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+offset_left = 61.3574
+offset_top = 110.642
+offset_right = 101.357
+offset_bottom = 150.642
+rotation = -3.14159
+texture = ExtResource("7_fpnq3")
+
+[node name="NinePatchRect92" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1414.3
+offset_top = 333.642
+offset_right = 1454.3
+offset_bottom = 397.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("1_l5i0t")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 5
+patch_margin_bottom = 5
+
+[node name="NinePatchRect93" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1594.3
+offset_top = 275.642
+offset_right = 1634.3
+offset_bottom = 339.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("1_l5i0t")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 5
+patch_margin_bottom = 5
+
+[node name="NinePatchRect94" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1506.3
+offset_top = 288.642
+offset_right = 1519.3
+offset_bottom = 296.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect95" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1354.36
+offset_top = 367.642
+offset_right = 1367.36
+offset_bottom = 405.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect96" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1298.36
+offset_top = 480.642
+offset_right = 1311.36
+offset_bottom = 490.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect97" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1298.36
+offset_top = 434.642
+offset_right = 1311.36
+offset_bottom = 444.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect98" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1584.36
+offset_top = 534.642
+offset_right = 1678.36
+offset_bottom = 544.642
+rotation = -3.14159
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect99" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2021.36
+offset_top = 264.642
+offset_right = 2129.36
+offset_bottom = 372.642
+rotation = -2.3562
+scale = Vector2(2, 2)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect100" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2021.36
+offset_top = 278.642
+offset_right = 2118.36
+offset_bottom = 375.642
+rotation = -2.3562
+scale = Vector2(2, 2)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect101" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1839.36
+offset_top = 89.6417
+offset_right = 1860.36
+offset_bottom = 134.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect102" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1875.29
+offset_top = 119.642
+offset_right = 1896.29
+offset_bottom = 164.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect103" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1918.29
+offset_top = 62.6417
+offset_right = 1939.29
+offset_bottom = 107.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect104" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1974.29
+offset_top = 504.642
+offset_right = 1995.29
+offset_bottom = 549.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect105" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2045.29
+offset_top = 470.642
+offset_right = 2066.29
+offset_bottom = 515.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect106" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1854.29
+offset_top = 534.642
+offset_right = 1875.29
+offset_bottom = 579.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect107" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1769.36
+offset_top = 420.642
+offset_right = 1784.36
+offset_bottom = 465.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect108" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1769.36
+offset_top = 394.642
+offset_right = 1784.36
+offset_bottom = 398.642
+rotation = -3.14159
+scale = Vector2(5, 5)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect109" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2136.29
+offset_top = 284.642
+offset_right = 2151.29
+offset_bottom = 300.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="Sprite2D66" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2196.29, 470.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D67" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2225.29, 496.642)
+rotation = -3.92699
+scale = Vector2(7.31041, 7.31041)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D68" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1866.29, 461.642)
+rotation = -3.92699
+scale = Vector2(4.02548, 4.02548)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D69" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2150.29, 584.642)
+rotation = -3.92699
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D70" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(2023.29, 226.642)
+rotation = -3.92699
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D71" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1686.29, 520.642)
+rotation = -3.92699
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D72" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1734.29, 592.642)
+rotation = -3.92699
+scale = Vector2(33.6095, 33.6095)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D73" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1686.29, 424.642)
+rotation = -3.92699
+scale = Vector2(13.621, 13.621)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D74" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1662.29, 344.642)
+rotation = -3.92699
+scale = Vector2(13.621, 13.621)
+texture = ExtResource("2_y13ql")
+
+[node name="NinePatchRect110" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2182.29
+offset_top = 238.642
+offset_right = 2197.29
+offset_bottom = 254.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect111" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2154.36
+offset_top = 352.642
+offset_right = 2160.36
+offset_bottom = 359.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect112" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2197.29
+offset_top = 397.642
+offset_right = 2204.29
+offset_bottom = 404.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect113" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1844.29
+offset_top = 397.642
+offset_right = 1851.29
+offset_bottom = 404.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect114" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2014.29
+offset_top = 397.642
+offset_right = 2021.29
+offset_bottom = 404.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect115" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2170.29
+offset_top = 480.642
+offset_right = 2227.29
+offset_bottom = 530.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect116" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1841.29
+offset_top = 461.642
+offset_right = 1898.29
+offset_bottom = 511.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect117" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 1718.29
+offset_top = 248.642
+offset_right = 1775.29
+offset_bottom = 298.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect118" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2294.29
+offset_top = 110.642
+offset_right = 2351.29
+offset_bottom = 160.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect119" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2294.29
+offset_top = 142.642
+offset_right = 2351.29
+offset_bottom = 192.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="NinePatchRect120" type="NinePatchRect" parent="main_scene/ColorRect3/parallax_2"]
+modulate = Color(0, 0, 0, 1)
+offset_left = 2294.29
+offset_top = 173.642
+offset_right = 2351.29
+offset_bottom = 223.642
+rotation = -2.3562
+scale = Vector2(4, 4)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="Sprite2D75" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1768.3, 524.642)
+rotation = -3.92699
+scale = Vector2(3.14706, 3.14706)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D76" type="Sprite2D" parent="main_scene/ColorRect3/parallax_2"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(1784.3, 524.642)
+rotation = -3.92699
+scale = Vector2(3.14706, 3.14706)
+texture = ExtResource("2_y13ql")
+
 [node name="q" type="Node2D" parent="main_scene/ColorRect3"]
 script = ExtResource("9_3bfty")
 lerp_direction = Vector2(16, 16)
 lerp_mult_max = 1
+blink_distance = 55555
+push_direction = Vector2(-3, 0)
 
 [node name="Circ7" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(1019.54, 522)
-rotation = 1603.36
+rotation = 2007.9
 radius = 128
 point_count = 4
 width = 6
@@ -1888,7 +7461,7 @@ spin_rand = 0.4
 
 [node name="Circ8" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(1343.32, 122)
-rotation = 5675.67
+rotation = 18263.7
 radius = 128
 point_count = 4
 width = 6
@@ -1896,28 +7469,28 @@ spin_rand = 0.4
 
 [node name="Circ11" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(1397.65, 165)
-rotation = 3066.19
+rotation = -9167.66
 point_count = 4
 width = 6
 spin_rand = 0.4
 
 [node name="Circ12" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(1349.65, 186)
-rotation = 6611.08
+rotation = 4295.2
 point_count = 4
 width = 6
 spin_rand = 0.4
 
 [node name="Circ13" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(1309.65, 165)
-rotation = 5459.27
+rotation = 927.566
 point_count = 4
 width = 6
 spin_rand = 0.4
 
 [node name="Circ14" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(1381.65, 226)
-rotation = 3927.96
+rotation = 2261.58
 radius = 16
 point_count = 4
 width = 6
@@ -1925,7 +7498,7 @@ spin_rand = 0.4
 
 [node name="Circ15" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(1276.65, 498)
-rotation = 3870.93
+rotation = 13222.9
 radius = 233
 point_count = 4
 width = 6
@@ -1933,7 +7506,7 @@ spin_rand = 0.4
 
 [node name="Circ16" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(909.652, 482)
-rotation = 6493.4
+rotation = 4607.44
 radius = 155
 point_count = 5
 width = 6
@@ -1941,7 +7514,7 @@ spin_rand = 0.4
 
 [node name="Circ17" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(1101.65, 490)
-rotation = 6646.32
+rotation = 9259.1
 radius = 155
 point_count = 122
 width = 6
@@ -1949,7 +7522,7 @@ spin_rand = 0.4
 
 [node name="Circ18" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(861.653, 138)
-rotation = 5333.86
+rotation = -107.027
 radius = 155
 point_count = 122
 width = 6
@@ -1957,7 +7530,7 @@ spin_rand = 0.4
 
 [node name="Circ9" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(1141.32, 50)
-rotation = 2511.37
+rotation = -605.193
 radius = 128
 start_angle = -3.247
 point_count = 12
@@ -1966,7 +7539,7 @@ spin_rand = 0.4
 
 [node name="Circ10" parent="main_scene/ColorRect3/q" instance=ExtResource("10_w3hp0")]
 position = Vector2(1101.32, 306)
-rotation = 6471.58
+rotation = 3543.14
 radius = 122
 start_angle = -3.247
 point_count = 4
@@ -1974,19 +7547,6 @@ width = 15
 spin_rand = 0.4
 
 [node name="parallax_4" type="Node2D" parent="main_scene/ColorRect3"]
-
-[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect3/parallax_4"]
-offset_left = 517.0
-offset_top = 316.0
-offset_right = 753.0
-offset_bottom = 434.0
-rotation = 0.785398
-
-[node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect3/parallax_4"]
-offset_left = 437.0
-offset_top = 116.056
-offset_right = 1285.0
-offset_bottom = 132.056
 
 [node name="ColorRect2" type="ColorRect" parent="main_scene/ColorRect3"]
 layout_mode = 0
@@ -1996,6 +7556,48 @@ offset_right = 2297.0
 offset_bottom = 1928.0
 rotation = -2.53073
 color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="main_scene/ColorRect3"]
+layout_mode = 0
+offset_left = 1075.0
+offset_top = 230.0
+offset_right = 1248.0
+offset_bottom = 306.0
+rotation = -3.14159
+color = Color(0, 0, 0, 1)
+
+[node name="NinePatchRect" type="NinePatchRect" parent="main_scene/ColorRect3"]
+clip_contents = true
+layout_mode = 0
+offset_left = 908.007
+offset_top = 158.0
+offset_right = 952.007
+offset_bottom = 176.0
+scale = Vector2(3.66967, 3.66967)
+texture = ExtResource("7_fpnq3")
+patch_margin_left = 1
+patch_margin_top = 1
+patch_margin_right = 1
+patch_margin_bottom = 1
+
+[node name="ColorRect" type="ColorRect" parent="main_scene/ColorRect3/NinePatchRect"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = -14.0
+offset_top = -15.0
+offset_right = 80.0
+offset_bottom = 52.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="main_scene/ColorRect3/NinePatchRect"]
+layout_mode = 0
+offset_left = 2.45264
+offset_top = -0.8
+offset_right = 175.453
+offset_bottom = 87.2
+scale = Vector2(0.227622, 0.227622)
+text = "儚い声"
+label_settings = SubResource("LabelSettings_7umvc")
 
 [node name="ColorRect2" type="ColorRect" parent="main_scene"]
 offset_top = -8.0
@@ -3339,7 +8941,7 @@ layout_mode = 0
 offset_left = -120.0
 offset_top = 368.0
 offset_right = 832.0
-offset_bottom = 631.001
+offset_bottom = 631.0
 rotation = -0.105661
 
 [node name="city_4" type="ColorRect" parent="main_scene/ColorRect/city_1"]
@@ -4806,11 +10408,242 @@ texture = ExtResource("1_c1ps0")
 [node name="title" type="Sprite2D" parent="flashy_intro/ColorRect8/ColorRect4"]
 
 [node name="ColorRect" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title"]
-offset_left = -134.611
-offset_top = -23.7548
-offset_right = 70.3891
-offset_bottom = 16.2452
+offset_left = -120.0
+offset_top = -38.0
+offset_right = 79.0
+offset_bottom = 30.0
 color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="flashy_intro/ColorRect8/ColorRect4/title"]
+offset_left = -101.22
+offset_top = -39.4163
+offset_right = 210.78
+offset_bottom = 71.5837
+text = "表裏一体"
+label_settings = SubResource("LabelSettings_05qsq")
+
+[node name="pack_of_lerpers" parent="flashy_intro/ColorRect8/ColorRect4/title" instance=ExtResource("11_2hree")]
+activated = false
+lerp_direction = Vector2(0, 0)
+count_strength = 3.0
+lerp_strength = 0.3
+size_x_scale = true
+
+[node name="ColorRect2" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -95.2661
+offset_top = -30.0315
+offset_right = -90.2661
+offset_bottom = 9.96852
+
+[node name="ColorRect3" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -111.22
+offset_top = -18.7697
+offset_right = -106.22
+offset_bottom = 21.2303
+rotation = -1.5708
+
+[node name="ColorRect4" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -103.618
+offset_top = -13.0
+offset_right = -98.618
+offset_bottom = 12.0
+rotation = -1.5708
+
+[node name="ColorRect5" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -112.618
+offset_top = -6.56941
+offset_right = -107.618
+offset_bottom = 35.4306
+rotation = -1.5708
+
+[node name="ColorRect6" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -95.2661
+offset_top = -7.50787
+offset_right = -90.2661
+offset_bottom = 6.49213
+rotation = 0.98797
+
+[node name="ColorRect7" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -99.9585
+offset_top = 9.38483
+offset_right = -94.9585
+offset_bottom = 23.3848
+rotation = 3.14159
+
+[node name="ColorRect8" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -103.712
+offset_top = 10.3233
+offset_right = -98.7125
+offset_bottom = 24.3233
+rotation = 4.71239
+
+[node name="ColorRect9" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -90.5737
+offset_top = 3.75394
+offset_right = -85.5737
+offset_bottom = 17.7539
+rotation = 4.18879
+
+[node name="ColorRect10" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -92.4507
+offset_top = 3.75392
+offset_right = -87.4507
+offset_bottom = 17.7539
+rotation = 5.41052
+
+[node name="ColorRect11" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -62.4192
+offset_top = -24.093
+offset_right = -57.4192
+offset_bottom = 8.907
+rotation = 4.71239
+
+[node name="ColorRect12" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -62.4192
+offset_top = -18.4621
+offset_right = -57.4192
+offset_bottom = 14.5379
+rotation = 4.71239
+
+[node name="ColorRect13" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -62.4192
+offset_top = -10.9543
+offset_right = -57.4192
+offset_bottom = 22.0457
+rotation = 4.71239
+
+[node name="ColorRect14" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -57.618
+offset_top = -11.1388
+offset_right = -52.618
+offset_bottom = 0.861206
+rotation = 3.14159
+
+[node name="ColorRect15" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -29.618
+offset_top = -11.1388
+offset_right = -24.618
+offset_bottom = 0.861206
+rotation = 3.14159
+
+[node name="ColorRect16" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -29.5723
+offset_top = -4.38483
+offset_right = -24.5723
+offset_bottom = 9.61517
+rotation = 3.14159
+
+[node name="ColorRect17" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -57.7268
+offset_top = -4.38483
+offset_right = -52.7268
+offset_bottom = 9.61517
+rotation = 3.14159
+
+[node name="ColorRect18" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -57.618
+offset_top = -3.89272
+offset_right = -52.618
+offset_bottom = 20.1073
+rotation = 4.71239
+
+[node name="ColorRect19" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -65.618
+offset_top = 2.12302
+offset_right = -60.618
+offset_bottom = 41.123
+rotation = 4.71239
+
+[node name="ColorRect20" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -69.618
+offset_top = 8.12303
+offset_right = -64.618
+offset_bottom = 54.123
+rotation = 4.71239
+
+[node name="ColorRect21" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -66.618
+offset_top = 22.0
+offset_right = -61.618
+offset_bottom = 46.0
+rotation = 4.10153
+
+[node name="ColorRect22" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -62.4192
+offset_top = 18.7697
+offset_right = -57.4192
+offset_bottom = 37.7697
+rotation = 4.97419
+
+[node name="ColorRect23" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -47.4034
+offset_top = 11.2618
+offset_right = -42.4034
+offset_bottom = 30.2618
+rotation = 5.23599
+
+[node name="ColorRect24" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -39.618
+offset_top = 15.0
+offset_right = -34.618
+offset_bottom = 27.0
+rotation = 4.01426
+
+[node name="ColorRect25" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = -21.618
+offset_top = -5.0
+offset_right = -16.618
+offset_bottom = 17.0
+rotation = 4.71239
+
+[node name="ColorRect26" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = 8.90558
+offset_top = -7.50787
+offset_right = 13.9056
+offset_bottom = 14.4921
+rotation = 3.83973
+
+[node name="ColorRect27" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = 20.382
+offset_top = 11.0
+offset_right = 25.382
+offset_bottom = 45.0
+rotation = 3.14159
+
+[node name="ColorRect28" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = 50.382
+offset_top = 14.0
+offset_right = 55.382
+offset_bottom = 52.0
+rotation = 3.14159
+
+[node name="ColorRect29" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = 35.382
+offset_top = -15.0
+offset_right = 40.382
+offset_bottom = 11.0
+rotation = 4.71239
+
+[node name="ColorRect30" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = 46.4449
+offset_top = -18.7697
+offset_right = 51.4449
+offset_bottom = 7.23032
+rotation = 6.89405
+
+[node name="ColorRect31" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = 46.4449
+offset_top = -15.0157
+offset_right = 51.4449
+offset_bottom = 10.9843
+rotation = 5.67232
+
+[node name="ColorRect32" type="ColorRect" parent="flashy_intro/ColorRect8/ColorRect4/title/pack_of_lerpers"]
+offset_left = 39.382
+offset_top = 3.99998
+offset_right = 44.382
+offset_bottom = 24.0
+rotation = 4.71239
 
 [node name="ColorRect7" type="ColorRect" parent="flashy_intro"]
 offset_left = -112.0
@@ -4856,6 +10689,57 @@ lerp_mult_min = 1
 lerp_mult_max = 3
 count_strength = 5.0
 lerp_strength = 0.2
+
+[node name="Circ" parent="flashy_intro/ColorRect7/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(32.3767, 159)
+rotation = -1.8326
+radius = 122
+point_count = 4
+
+[node name="Circ2" parent="flashy_intro/ColorRect7/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(32.3767, 159)
+rotation = -1.8326
+radius = 172
+point_count = 4
+
+[node name="Circ3" parent="flashy_intro/ColorRect7/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(-39.6233, -233)
+rotation = -2.3562
+radius = 233
+point_count = 5
+width = 3
+
+[node name="Circ4" parent="flashy_intro/ColorRect7/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(-319.623, -225)
+rotation = -2.3562
+radius = 233
+point_count = 5
+width = 3
+
+[node name="Circ5" parent="flashy_intro/ColorRect7/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(-347.623, -237)
+rotation = -2.3562
+radius = 233
+point_count = 5
+width = 3
+
+[node name="Circ6" parent="flashy_intro/ColorRect7/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(208.377, -153)
+rotation = -14.399
+radius = 65
+start_angle = 0.85
+end_angle = 0.0
+point_count = 3
+width = 255
+
+[node name="Circ7" parent="flashy_intro/ColorRect7/ColorRect/pack_of_lerpers" instance=ExtResource("10_w3hp0")]
+position = Vector2(140.377, -173)
+rotation = -14.399
+radius = 65
+start_angle = 0.85
+end_angle = 0.0
+point_count = 3
+width = 255
 
 [node name="Sprite2D" type="Sprite2D" parent="flashy_intro/ColorRect7/ColorRect/pack_of_lerpers"]
 position = Vector2(84.0001, -105)
@@ -5198,6 +11082,49 @@ position = Vector2(-44.9996, 239.421)
 rotation = 4.01426
 scale = Vector2(6.36571, 6.36571)
 texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D" type="Sprite2D" parent="flashy_intro/ColorRect6/ColorRect"]
+position = Vector2(373.557, 243.617)
+rotation = 0.523599
+scale = Vector2(2.29445, 2.29445)
+texture = ExtResource("2_y13ql")
+
+[node name="Sprite2D2" type="Sprite2D" parent="flashy_intro/ColorRect6/ColorRect"]
+position = Vector2(385.148, 240.512)
+rotation = 0.523599
+scale = Vector2(2.29445, 2.29445)
+texture = ExtResource("2_y13ql")
+
+[node name="Circ" parent="flashy_intro/ColorRect6/ColorRect" instance=ExtResource("10_w3hp0")]
+position = Vector2(400.668, 182.519)
+rotation = -0.174533
+radius = 25
+width = 1
+
+[node name="Circ2" parent="flashy_intro/ColorRect6/ColorRect" instance=ExtResource("10_w3hp0")]
+position = Vector2(346.021, 164.033)
+rotation = -0.174533
+radius = 54
+width = 1
+
+[node name="Circ3" parent="flashy_intro/ColorRect6/ColorRect" instance=ExtResource("10_w3hp0")]
+position = Vector2(129.09, 289.452)
+rotation = -0.174533
+radius = 244
+width = 1
+
+[node name="Circ4" parent="flashy_intro/ColorRect6/ColorRect" instance=ExtResource("10_w3hp0")]
+position = Vector2(521.656, 626.327)
+rotation = -0.174533
+radius = 244
+width = 1
+
+[node name="Circ5" parent="flashy_intro/ColorRect6/ColorRect" instance=ExtResource("10_w3hp0")]
+position = Vector2(383.555, 362.066)
+rotation = 1.36223
+radius = 55
+end_angle = 1.0
+width = 1
 
 [node name="ColorRect5" type="ColorRect" parent="flashy_intro"]
 offset_left = -112.0
@@ -5697,9 +11624,35 @@ position = Vector2(480, 200)
 scale = Vector2(39, 144)
 texture = ExtResource("1_c1ps0")
 
+[node name="Line2D" type="Line2D" parent="flashy_intro/ColorRect"]
+points = PackedVector2Array(124, 44, 180, 44, 180, 52, 164, 52, 164, 56, 180, 56, 180, 68, 124, 68, 124, 88, 128, 88, 128, 72, 132, 72, 132, 96, 172, 96, 172, 100, 124, 100, 124, 112, 180, 112, 180, 72, 136, 72, 136, 92, 176, 92, 176, 76, 140, 76, 140, 88, 172, 88, 172, 80, 144, 80, 144, 84, 168, 84)
+width = 1.0
+default_color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="flashy_intro/ColorRect"]
+layout_mode = 0
+offset_left = 144.0
+offset_top = 336.0
+offset_right = 282.0
+offset_bottom = 362.0
+text = "el hominem te esse memento"
+label_settings = SubResource("LabelSettings_m6bgb")
+
+[node name="Label2" type="Label" parent="flashy_intro/ColorRect"]
+layout_mode = 0
+offset_left = 724.0
+offset_top = 56.0
+offset_right = 862.0
+offset_bottom = 105.0
+rotation = 1.5708
+text = "-
+-
+-
+-"
+label_settings = SubResource("LabelSettings_m6bgb")
+
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_mle2m")
-volume_db = -10.0
 
 [node name="ColorRect" type="ColorRect" parent="."]
 visible = false

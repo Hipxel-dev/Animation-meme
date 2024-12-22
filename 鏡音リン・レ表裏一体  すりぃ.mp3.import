@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dxylb7fneq6h7"
+path="res://.godot/imported/鏡音リン・レ表裏一体  すりぃ.mp3-1c6cf96e40bf2eece9ce7f575f8deec3.mp3str"
+
+[deps]
+
+source_file="res://鏡音リン・レ表裏一体  すりぃ.mp3"
+dest_files=["res://.godot/imported/鏡音リン・レ表裏一体  すりぃ.mp3-1c6cf96e40bf2eece9ce7f575f8deec3.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=150.0
+beat_count=55
+bar_beats=4
